@@ -1,8 +1,10 @@
 # Midazolam-Model
 Whole-body PBPK model of midazolam as CYP3A4 DDI victim drug 
 
-![Midazolam](https://github.com/Open-Systems-Pharmacology/Digoxin-Model/blob/master/DDI-Modeling-Network.png) 
 
+<p align="center">
+  <img src="DDI-Modeling-Network.png">
+</p>
 
 ## Repository files
 Within this repository, we distribute a whole-body PBPK model of midazolam, that has been carefully developed using a large number of clinical studies and evaluated within our DDI modeling network. 
