@@ -1,5 +1,5 @@
 {
-  "Version": 75,
+  "Version": 76,
   "Individuals": [
     {
       "Name": "European (P-gp modified, CYP3A4 36 h)",
@@ -1303,6 +1303,10 @@
           "Name": "Molecular weight",
           "Value": 325.78,
           "Unit": "g/mol"
+        },
+        {
+          "Name": "Enable supersaturation",
+          "Value": 0.0
         }
       ]
     }
@@ -2326,7 +2330,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -2337,7 +2341,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -2357,7 +2361,7 @@
               "X": "Hohmann 2015 - iv 1 micg - Midazolam - IV - 1 Âµg - Plasma - agg. (n=16)|Time",
               "Y": "Hohmann 2015 - iv 1 micg - Midazolam - IV - 1 Âµg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -2662,7 +2666,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -2673,7 +2677,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -2693,7 +2697,7 @@
               "X": "Saari 2006 - iv Control (Perpetrator Placebo) - Midazolam - IV - 0.05 mg/kg - Plasma - agg. (n=10)|Time",
               "Y": "Saari 2006 - iv Control (Perpetrator Placebo) - Midazolam - IV - 0.05 mg/kg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -2704,7 +2708,7 @@
               "X": "Olkkola 1993 - iv Control (Perpetrator Placebo) - Midazolam - IV - 0.05 mg/kg - Plasma - agg. (n=6)|Time",
               "Y": "Olkkola 1993 - iv Control (Perpetrator Placebo) - Midazolam - IV - 0.05 mg/kg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -2715,7 +2719,7 @@
               "X": "Olkkola 1996 - day 4 (iv) Control (Perpetrator Placebo) - Midazolam - IV - 0.05 mg/kg - Plasma - agg. (n=12)|Time",
               "Y": "Olkkola 1996 - day 4 (iv) Control (Perpetrator Placebo) - Midazolam - IV - 0.05 mg/kg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Green",
+                "Color": "#008000",
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -2932,7 +2936,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -2943,7 +2947,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -2963,7 +2967,7 @@
               "X": "Gorski 2003 - iv Control (Perpetrator Placebo) - Midazolam - IV - 0.05 mg/kg - Whole Blood - agg. (n=52)|Time",
               "Y": "Gorski 2003 - iv Control (Perpetrator Placebo) - Midazolam - IV - 0.05 mg/kg - Whole Blood - agg. (n=52)|ObservedData|Peripheral Venous Blood|Whole Blood|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -2974,7 +2978,7 @@
               "X": "Gorski 1998 - iv Control (Perpetrator Placebo) - Midazolam - IV - 0.05 mg/kg - Whole Blood - agg. (n=16)|Time",
               "Y": "Gorski 1998 - iv Control (Perpetrator Placebo) - Midazolam - IV - 0.05 mg/kg - Whole Blood - agg. (n=16)|ObservedData|Peripheral Venous Blood|Whole Blood|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -3316,7 +3320,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -3327,7 +3331,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -3347,7 +3351,7 @@
               "X": "Szalat 2007 - Control (Perpetrator Placebo) - Midazolam - IV - 0.05 mg/kg - Plasma - agg. (n=3)|Time",
               "Y": "Szalat 2007 - Control (Perpetrator Placebo) - Midazolam - IV - 0.05 mg/kg - Plasma - agg. (n=3)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -3695,7 +3699,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -3706,7 +3710,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -3726,7 +3730,7 @@
               "X": "Allonen 1981 - iv - Midazolam - IV - 0.075 mg/kg - Plasma - agg. (n=6)|Time",
               "Y": "Allonen 1981 - iv - Midazolam - IV - 0.075 mg/kg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -3737,7 +3741,7 @@
               "X": "Swart 2002 - day 5 Control (Perpetrator Placebo) - Midazolam - IV - 0.075 mg/kg - Plasma - agg. (n=8)|Time",
               "Y": "Swart 2002 - day 5 Control (Perpetrator Placebo) - Midazolam - IV - 0.075 mg/kg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -4084,7 +4088,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -4095,7 +4099,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -4115,7 +4119,7 @@
               "X": "Heizmann 1983 - iv 0.15 mg/kg - Indiv. A.St. - Midazolam - IV - 0.15 mg/kg - Plasma - indiv.|Time",
               "Y": "Heizmann 1983 - iv 0.15 mg/kg - Indiv. A.St. - Midazolam - IV - 0.15 mg/kg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Individual",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -4126,7 +4130,7 @@
               "X": "Heizmann 1983 - iv 0.15 mg/kg - Indiv. CH.B. - Midazolam - IV - 0.15 mg/kg - Plasma - indiv.|Time",
               "Y": "Heizmann 1983 - iv 0.15 mg/kg - Indiv. CH.B. - Midazolam - IV - 0.15 mg/kg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Individual",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -4137,7 +4141,7 @@
               "X": "Heizmann 1983 - iv 0.15 mg/kg - Indiv. E.Sch. - Midazolam - IV - 0.15 mg/kg - Plasma - indiv.|Time",
               "Y": "Heizmann 1983 - iv 0.15 mg/kg - Indiv. E.Sch. - Midazolam - IV - 0.15 mg/kg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Individual",
               "CurveOptions": {
-                "Color": "Green",
+                "Color": "#008000",
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -4148,7 +4152,7 @@
               "X": "Heizmann 1983 - iv 0.15 mg/kg - Indiv. K.M. - Midazolam - IV - 0.15 mg/kg - Plasma - indiv.|Time",
               "Y": "Heizmann 1983 - iv 0.15 mg/kg - Indiv. K.M. - Midazolam - IV - 0.15 mg/kg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Individual",
               "CurveOptions": {
-                "Color": "Magenta",
+                "Color": "#FF00FF",
                 "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -4159,7 +4163,7 @@
               "X": "Heizmann 1983 - iv 0.15 mg/kg - Indiv. O.A. - Midazolam - IV - 0.15 mg/kg - Plasma - indiv.|Time",
               "Y": "Heizmann 1983 - iv 0.15 mg/kg - Indiv. O.A. - Midazolam - IV - 0.15 mg/kg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Individual",
               "CurveOptions": {
-                "Color": "255, 128, 0",
+                "Color": "#FF8000",
                 "LegendIndex": 6,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -4170,7 +4174,7 @@
               "X": "Heizmann 1983 - iv 0.15 mg/kg - Indiv. R.H. - Midazolam - IV - 0.15 mg/kg - Plasma - indiv.|Time",
               "Y": "Heizmann 1983 - iv 0.15 mg/kg - Indiv. R.H. - Midazolam - IV - 0.15 mg/kg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Individual",
               "CurveOptions": {
-                "Color": "0, 192, 192",
+                "Color": "#00C0C0",
                 "LegendIndex": 7,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -4522,7 +4526,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -4533,17 +4537,18 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -4563,7 +4568,7 @@
               "X": "Hohmann 2015 - iv 1 mg - Midazolam - IV - 1 mg - Plasma - agg. (n=16)|Time",
               "Y": "Hohmann 2015 - iv 1 mg - Midazolam - IV - 1 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -4581,7 +4586,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -4594,7 +4599,7 @@
               "Visible": true,
               "Min": 0.0,
               "Max": 3.0,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -4606,7 +4611,7 @@
               "X": "Thummel 1996 - iv - female - Midazolam - IV - 1 mg - Urine - agg. (n=10)|Time",
               "Y": "Thummel 1996 - iv - female - Midazolam - IV - 1 mg - Urine - agg. (n=10)|ObservedData|Kidney|Urine|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -4617,7 +4622,7 @@
               "X": "Thummel 1996 - iv - male - Midazolam - IV - 1 mg - Urine - agg. (n=10)|Time",
               "Y": "Thummel 1996 - iv - male - Midazolam - IV - 1 mg - Urine - agg. (n=10)|ObservedData|Kidney|Urine|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -4644,7 +4649,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -4655,7 +4660,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -4675,7 +4680,7 @@
               "X": "Hyland 2009 - 1-mg i.v. dose (as fraction of dose) - Midazolam-N-Glucuronide - IV - 1 mg - Urine - agg. (n=6)|Time",
               "Y": "Hyland 2009 - 1-mg i.v. dose (as fraction of dose) - Midazolam-N-Glucuronide - IV - 1 mg - Urine - agg. (n=6)|ObservedData|Kidney|Urine|Midazolam-N-Glucuronide|ArithmeticMean",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -5026,7 +5031,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -5037,17 +5042,18 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "236, 211, 58",
+              "DefaultColor": "#ECD33A",
               "DefaultLineStyle": "Dash",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -5067,7 +5073,7 @@
               "X": "Kharasch 2004 - iv Control (Perpetrator Placebo) - Midazolam - IV - 1 mg - Plasma - agg. (n=10)|Time",
               "Y": "Kharasch 2004 - iv Control (Perpetrator Placebo) - Midazolam - IV - 1 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -5078,7 +5084,7 @@
               "X": "Phimmasone 2001 - Control (Perpetrator Placebo) - Midazolam - IV - 1 mg - Plasma - agg. (n=6)|Time",
               "Y": "Phimmasone 2001 - Control (Perpetrator Placebo) - Midazolam - IV - 1 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -5089,7 +5095,7 @@
               "X": "Kharasch 1997 - Control (Perpetrator Placebo) - Midazolam - IV - 1 mg - Plasma - typical (n=9)|Time",
               "Y": "Kharasch 1997 - Control (Perpetrator Placebo) - Midazolam - IV - 1 mg - Plasma - typical (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Individual",
               "CurveOptions": {
-                "Color": "Green",
+                "Color": "#008000",
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -5100,7 +5106,7 @@
               "X": "Kharasch 2011 - iv Control (Perpetrator Placebo) - Midazolam - IV - 1 mg - Plasma - agg. (n=12)|Time",
               "Y": "Kharasch 2011 - iv Control (Perpetrator Placebo) - Midazolam - IV - 1 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Magenta",
+                "Color": "#FF00FF",
                 "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -5118,7 +5124,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -5131,17 +5137,18 @@
               "Visible": true,
               "Min": 0.0,
               "Max": 3.0,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -5153,7 +5160,7 @@
               "X": "Thummel 1996 - iv - female - Midazolam - IV - 1 mg - Urine - agg. (n=10)|Time",
               "Y": "Thummel 1996 - iv - female - Midazolam - IV - 1 mg - Urine - agg. (n=10)|ObservedData|Kidney|Urine|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -5164,7 +5171,7 @@
               "X": "Thummel 1996 - iv - male - Midazolam - IV - 1 mg - Urine - agg. (n=10)|Time",
               "Y": "Thummel 1996 - iv - male - Midazolam - IV - 1 mg - Urine - agg. (n=10)|ObservedData|Kidney|Urine|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -5190,7 +5197,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -5201,17 +5208,18 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -5231,7 +5239,7 @@
               "X": "Hyland 2009 - 1-mg i.v. dose (as fraction of dose) - Midazolam-N-Glucuronide - IV - 1 mg - Urine - agg. (n=6)|Time",
               "Y": "Hyland 2009 - 1-mg i.v. dose (as fraction of dose) - Midazolam-N-Glucuronide - IV - 1 mg - Urine - agg. (n=6)|ObservedData|Kidney|Urine|Midazolam-N-Glucuronide|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -5575,7 +5583,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -5586,7 +5594,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -5938,7 +5946,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -5949,7 +5957,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -5969,7 +5977,7 @@
               "X": "Link 2008 - iv Control (Perpetrator Placebo) - Midazolam - IV - 2 mg - Plasma - agg. (n=8)|Time",
               "Y": "Link 2008 - iv Control (Perpetrator Placebo) - Midazolam - IV - 2 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -5980,7 +5988,7 @@
               "X": "Darwish 2008 - iv - Midazolam - IV - 2 mg - Plasma - agg. (n=24)|Time",
               "Y": "Darwish 2008 - iv - Midazolam - IV - 2 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -6327,7 +6335,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -6338,7 +6346,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -6358,7 +6366,7 @@
               "X": "Schwagmeier 1998 - iv administration - Midazolam - IV - 5 mg - Plasma - agg. (n=8)|Time",
               "Y": "Schwagmeier 1998 - iv administration - Midazolam - IV - 5 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -6700,7 +6708,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -6711,7 +6719,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -6731,7 +6739,7 @@
               "X": "Smith 1981 - iv 5 mg - Midazolam - IV - 5 mg - Plasma - agg. (n=6)|Time",
               "Y": "Smith 1981 - iv 5 mg - Midazolam - IV - 5 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -7085,7 +7093,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -7096,7 +7104,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -7108,7 +7116,7 @@
               "X": "Hohmann 2015 - po 3 micg - Midazolam - PO - 3 Âµg - Plasma - agg. (n=16)|Time",
               "Y": "Hohmann 2015 - po 3 micg - Midazolam - PO - 3 Âµg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -7119,7 +7127,7 @@
               "X": "Time",
               "Y": "po 0.003 mg (solution)|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -7470,7 +7478,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -7481,7 +7489,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -7501,7 +7509,7 @@
               "X": "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)|Time",
               "Y": "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -7855,7 +7863,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -7866,7 +7874,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -7886,7 +7894,7 @@
               "X": "Chung 2006 - Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg/kg - Plasma - agg. (n=18)|Time",
               "Y": "Chung 2006 - Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg/kg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -8236,7 +8244,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -8247,7 +8255,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -8612,7 +8620,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -8623,7 +8631,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -8643,7 +8651,7 @@
               "X": "Heizmann 1983 - po 10 mg - Indiv. R.H. - Midazolam - PO - 10 mg - Plasma - indiv.|Time",
               "Y": "Heizmann 1983 - po 10 mg - Indiv. R.H. - Midazolam - PO - 10 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Individual",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -8654,7 +8662,7 @@
               "X": "Heizmann 1983 - po 10 mg - Indiv. O.A. - Midazolam - PO - 10 mg - Plasma - indiv.|Time",
               "Y": "Heizmann 1983 - po 10 mg - Indiv. O.A. - Midazolam - PO - 10 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Individual",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -8665,7 +8673,7 @@
               "X": "Heizmann 1983 - po 10 mg - Indiv. K.M. - Midazolam - PO - 10 mg - Plasma - indiv.|Time",
               "Y": "Heizmann 1983 - po 10 mg - Indiv. K.M. - Midazolam - PO - 10 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Individual",
               "CurveOptions": {
-                "Color": "Green",
+                "Color": "#008000",
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -8676,7 +8684,7 @@
               "X": "Smith 1981 - oral tablet 10 mg - Midazolam - PO - 10 mg - Plasma - agg. (n=6)|Time",
               "Y": "Smith 1981 - oral tablet 10 mg - Midazolam - PO - 10 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Magenta",
+                "Color": "#FF00FF",
                 "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -9037,7 +9045,7 @@
               "Visible": true,
               "Min": -0.9020125,
               "Max": 25.01987,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -9050,7 +9058,7 @@
               "Visible": true,
               "Min": 0.1672317,
               "Max": 112.8325,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -9070,7 +9078,7 @@
               "X": "Backman 1998 - Phase I (Control (Perpetrator Placebo)) - Midazolam - PO - 15 mg - Plasma - agg. (n=9)|Time",
               "Y": "Backman 1998 - Phase I (Control (Perpetrator Placebo)) - Midazolam - PO - 15 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 9,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -9081,7 +9089,7 @@
               "X": "Yeates 1996 - Control (Perpetrator Placebo) - Midazolam - PO - 15 mg - Plasma - agg. (n=12)|Time",
               "Y": "Yeates 1996 - Control (Perpetrator Placebo) - Midazolam - PO - 15 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "255, 0, 255",
+                "Color": "#FF00FF",
                 "LegendIndex": 12,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -9092,7 +9100,7 @@
               "X": "Zimmermann 1996 - Control (Perpetrator Placebo) - Midazolam - PO - 15 mg - Plasma - agg. (n=12)|Time",
               "Y": "Zimmermann 1996 - Control (Perpetrator Placebo) - Midazolam - PO - 15 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "255, 128, 0",
+                "Color": "#FF8000",
                 "LegendIndex": 13,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -9103,7 +9111,7 @@
               "X": "Allonen 1981 - oral - Midazolam - PO - 15 mg - Plasma - agg. (n=6)|Time",
               "Y": "Allonen 1981 - oral - Midazolam - PO - 15 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "0, 192, 192",
+                "Color": "#00C0C0",
                 "LegendIndex": 14,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -9114,7 +9122,7 @@
               "X": "Backman 1996 - Control (Perpetrator Placebo) - Midazolam - PO - 15 mg - Plasma - agg. (n=10)|Time",
               "Y": "Backman 1996 - Control (Perpetrator Placebo) - Midazolam - PO - 15 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 8,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -9125,7 +9133,7 @@
               "X": "Olkkola 1993 - po Control (Perpetrator Placebo) - Midazolam - PO - 15 mg - Plasma - agg. (n=12)|Time",
               "Y": "Olkkola 1993 - po Control (Perpetrator Placebo) - Midazolam - PO - 15 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "0, 128, 0",
+                "Color": "#008000",
                 "LegendIndex": 11,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -9136,7 +9144,7 @@
               "X": "Bornemann 1986 - fasting condition - Midazolam - PO - 15 mg - Plasma - agg. (n=18)|Time",
               "Y": "Bornemann 1986 - fasting condition - Midazolam - PO - 15 mg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "192, 0, 192",
+                "Color": "#C000C0",
                 "LegendIndex": 15,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -9489,7 +9497,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -9500,7 +9508,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -9520,7 +9528,7 @@
               "X": "Templeton 2010 - Control (Perpetrator Placebo) - Midazolam - PO - 2 mg - Plasma - agg. (n=6)|Time",
               "Y": "Templeton 2010 - Control (Perpetrator Placebo) - Midazolam - PO - 2 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -9878,7 +9886,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -9889,7 +9897,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -9909,7 +9917,7 @@
               "X": "Heizmann 1983 - po 20 mg - Indiv. R.H. - Midazolam - PO - 20 mg - Plasma - indiv.|Time",
               "Y": "Heizmann 1983 - po 20 mg - Indiv. R.H. - Midazolam - PO - 20 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Individual",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -9920,7 +9928,7 @@
               "X": "Heizmann 1983 - po 20 mg - Indiv. O.A. - Midazolam - PO - 20 mg - Plasma - indiv.|Time",
               "Y": "Heizmann 1983 - po 20 mg - Indiv. O.A. - Midazolam - PO - 20 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Individual",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -9931,7 +9939,7 @@
               "X": "Heizmann 1983 - po 20 mg - Indiv. K.M. - Midazolam - PO - 20 mg - Plasma - indiv.|Time",
               "Y": "Heizmann 1983 - po 20 mg - Indiv. K.M. - Midazolam - PO - 20 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Individual",
               "CurveOptions": {
-                "Color": "Green",
+                "Color": "#008000",
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -9942,7 +9950,7 @@
               "X": "Heizmann 1983 - po 20 mg - Indiv. E.Sch. - Midazolam - PO - 20 mg - Plasma - indiv.|Time",
               "Y": "Heizmann 1983 - po 20 mg - Indiv. E.Sch. - Midazolam - PO - 20 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Individual",
               "CurveOptions": {
-                "Color": "Magenta",
+                "Color": "#FF00FF",
                 "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -9953,7 +9961,7 @@
               "X": "Heizmann 1983 - po 20 mg - Indiv. CH.B. - Midazolam - PO - 20 mg - Plasma - indiv.|Time",
               "Y": "Heizmann 1983 - po 20 mg - Indiv. CH.B. - Midazolam - PO - 20 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Individual",
               "CurveOptions": {
-                "Color": "255, 128, 0",
+                "Color": "#FF8000",
                 "LegendIndex": 6,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -9964,7 +9972,7 @@
               "X": "Heizmann 1983 - po 20 mg - Indiv. A.St. - Midazolam - PO - 20 mg - Plasma - indiv.|Time",
               "Y": "Heizmann 1983 - po 20 mg - Indiv. A.St. - Midazolam - PO - 20 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Individual",
               "CurveOptions": {
-                "Color": "0, 192, 192",
+                "Color": "#00C0C0",
                 "LegendIndex": 7,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -10326,7 +10334,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -10337,7 +10345,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -10349,7 +10357,7 @@
               "X": "Kharasch 2011 - po Control (Perpetrator Placebo) - Midazolam - PO - 3 mg - Plasma - agg. (n=12)|Time",
               "Y": "Kharasch 2011 - po Control (Perpetrator Placebo) - Midazolam - PO - 3 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "0, 128, 0",
+                "Color": "#008000",
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -10360,7 +10368,7 @@
               "X": "Kharasch 2004 - po #1 Control (Perpetrator Placebo) - Midazolam - PO - 3 mg - Plasma - agg. (n=10)|Time",
               "Y": "Kharasch 2004 - po #1 Control (Perpetrator Placebo) - Midazolam - PO - 3 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -10371,7 +10379,7 @@
               "X": "Hohmann 2015 - po 3 mg - Midazolam - PO - 3 mg - Plasma - agg. (n=16)|Time",
               "Y": "Hohmann 2015 - po 3 mg - Midazolam - PO - 3 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -10397,7 +10405,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -10410,7 +10418,7 @@
               "Visible": true,
               "Min": 1.017808E-05,
               "Max": 3.0,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -10422,7 +10430,7 @@
               "X": "Thummel 1996 - po - male - Midazolam - PO - 2 mg - Urine - agg. (n=10)|Time",
               "Y": "Thummel 1996 - po - male - Midazolam - PO - 2 mg - Urine - agg. (n=10)|ObservedData|Kidney|Urine|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -10433,7 +10441,7 @@
               "X": "Thummel 1996 - po - female - Midazolam - PO - 2 mg - Urine - agg. (n=10)|Time",
               "Y": "Thummel 1996 - po - female - Midazolam - PO - 2 mg - Urine - agg. (n=10)|ObservedData|Kidney|Urine|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -10459,7 +10467,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -10470,7 +10478,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -10482,7 +10490,7 @@
               "X": "Hyland 2009 - 3-mg oral dose (as fraction of dose) - Midazolam-N-Glucuronide - PO - 3 mg - Urine - agg. (n=6)|Time",
               "Y": "Hyland 2009 - 3-mg oral dose (as fraction of dose) - Midazolam-N-Glucuronide - PO - 3 mg - Urine - agg. (n=6)|ObservedData|Kidney|Urine|Midazolam-N-Glucuronide|ArithmeticMean",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -10845,7 +10853,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -10856,7 +10864,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -10876,7 +10884,7 @@
               "X": "Gorski 1998 - po Control (Perpetrator Placebo) - Midazolam - PO - 4 mg - Whole Blood - agg. (n=16)|Time",
               "Y": "Gorski 1998 - po Control (Perpetrator Placebo) - Midazolam - PO - 4 mg - Whole Blood - agg. (n=16)|ObservedData|Peripheral Venous Blood|Whole Blood|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -10887,7 +10895,7 @@
               "X": "Gorski 2003 - po Control (Perpetrator Placebo) - Midazolam - PO - 4 mg - Whole Blood - agg. (n=52)|Time",
               "Y": "Gorski 2003 - po Control (Perpetrator Placebo) - Midazolam - PO - 4 mg - Whole Blood - agg. (n=52)|ObservedData|Peripheral Venous Blood|Whole Blood|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -11242,7 +11250,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -11253,7 +11261,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -11273,7 +11281,7 @@
               "X": "Heizmann 1983 - po 40 mg - Indiv. A.St. - Midazolam - PO - 40 mg - Plasma - indiv.|Time",
               "Y": "Heizmann 1983 - po 40 mg - Indiv. A.St. - Midazolam - PO - 40 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Individual",
               "CurveOptions": {
-                "Color": "Green",
+                "Color": "#008000",
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -11284,7 +11292,7 @@
               "X": "Heizmann 1983 - po 40 mg - Indiv. CH.B. - Midazolam - PO - 40 mg - Plasma - indiv.|Time",
               "Y": "Heizmann 1983 - po 40 mg - Indiv. CH.B. - Midazolam - PO - 40 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Individual",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -11295,7 +11303,7 @@
               "X": "Heizmann 1983 - po 40 mg - Indiv. E.Sch. - Midazolam - PO - 40 mg - Plasma - indiv.|Time",
               "Y": "Heizmann 1983 - po 40 mg - Indiv. E.Sch. - Midazolam - PO - 40 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Individual",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -11649,7 +11657,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -11660,7 +11668,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -11680,7 +11688,7 @@
               "X": "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)|Time",
               "Y": "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 6,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -11691,7 +11699,7 @@
               "X": "Tham 2006 - Control (Perpetrator Placebo) - Midazolam - IV - 1 mg - Plasma - agg. (n=28)|Time",
               "Y": "Tham 2006 - Control (Perpetrator Placebo) - Midazolam - IV - 1 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 7,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -12045,7 +12053,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -12056,7 +12064,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -12076,7 +12084,7 @@
               "X": "Greenblat 2003 - Control (Perpetrator Placebo) - Midazolam - PO - 6 mg - Plasma - agg. (n=25)|Time",
               "Y": "Greenblat 2003 - Control (Perpetrator Placebo) - Midazolam - PO - 6 mg - Plasma - agg. (n=25)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -12429,7 +12437,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -12440,7 +12448,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -12460,7 +12468,7 @@
               "X": "Eap 2004 - 7.5 mg Control (Perpetrator Placebo) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=13)|Time",
               "Y": "Eap 2004 - 7.5 mg Control (Perpetrator Placebo) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=13)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -12821,7 +12829,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -12832,7 +12840,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -12852,7 +12860,7 @@
               "X": "Gurley 2008a - Control pre-Kava kava (Perpetrator Placebo) - Midazolam - PO - 8 mg - Plasma - agg. (n=16)|Time",
               "Y": "Gurley 2008a - Control pre-Kava kava (Perpetrator Placebo) - Midazolam - PO - 8 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "192, 64, 0",
+                "Color": "#C04000",
                 "LegendIndex": 9,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -12863,7 +12871,7 @@
               "X": "Gurley 2008a - Control pre-Goldenseal (Perpetrator Placebo) - Midazolam - PO - 8 mg - Plasma - agg. (n=16)|Time",
               "Y": "Gurley 2008a - Control pre-Goldenseal (Perpetrator Placebo) - Midazolam - PO - 8 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "192, 0, 192",
+                "Color": "#C000C0",
                 "LegendIndex": 8,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -12874,7 +12882,7 @@
               "X": "Gurley 2008a - Control pre-Clarithromycin (Perpetrator Placebo) - Midazolam - PO - 8 mg - Plasma - agg. (n=16)|Time",
               "Y": "Gurley 2008a - Control pre-Clarithromycin (Perpetrator Placebo) - Midazolam - PO - 8 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "0, 192, 192",
+                "Color": "#00C0C0",
                 "LegendIndex": 7,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -12885,7 +12893,7 @@
               "X": "Gurley 2008a - Control pre-Rifampicin (Perpetrator Placebo) - Midazolam - PO - 8 mg - Plasma - agg. (n=16)|Time",
               "Y": "Gurley 2008a - Control pre-Rifampicin (Perpetrator Placebo) - Midazolam - PO - 8 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "255, 128, 0",
+                "Color": "#FF8000",
                 "LegendIndex": 6,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -12896,7 +12904,7 @@
               "X": "Gurley 2006 - Control pre-Milk thistle (Perpetrator Placebo) - Midazolam - PO - 8 mg - Plasma - agg. (n=19)|Time",
               "Y": "Gurley 2006 - Control pre-Milk thistle (Perpetrator Placebo) - Midazolam - PO - 8 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Magenta",
+                "Color": "#FF00FF",
                 "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -12907,7 +12915,7 @@
               "X": "Gurley 2006 - Control pre-Black cohosh (Perpetrator Placebo) - Midazolam - PO - 8 mg - Plasma - agg. (n=19)|Time",
               "Y": "Gurley 2006 - Control pre-Black cohosh (Perpetrator Placebo) - Midazolam - PO - 8 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Green",
+                "Color": "#008000",
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -12918,7 +12926,7 @@
               "X": "Gurley 2006 - Control pre-Clarithromycin (Perpetrator Placebo) - Midazolam - PO - 8 mg - Plasma - agg. (n=19)|Time",
               "Y": "Gurley 2006 - Control pre-Clarithromycin (Perpetrator Placebo) - Midazolam - PO - 8 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -12929,7 +12937,7 @@
               "X": "Gurley 2006 - Control pre-Rifampicin (Perpetrator Placebo) - Midazolam - PO - 8 mg - Plasma - agg. (n=19)|Time",
               "Y": "Gurley 2006 - Control pre-Rifampicin (Perpetrator Placebo) - Midazolam - PO - 8 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -12940,8 +12948,8 @@
           "Settings": {
             "SideMarginsEnabled": true,
             "LegendPosition": "Bottom",
-            "BackColor": "Transparent",
-            "DiagramBackColor": "White"
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Midazolam_2.2\npo 8 mg (solution)\n2018-10-09 15:06"
         }
@@ -13249,7 +13257,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -13260,7 +13268,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -13280,7 +13288,7 @@
               "X": "Saari 2006 - po Control (Perpetrator Placebo) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=10)|Time",
               "Y": "Saari 2006 - po Control (Perpetrator Placebo) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "0, 192, 192",
+                "Color": "#00C0C0",
                 "LegendIndex": 7,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -13291,7 +13299,7 @@
               "X": "Olkkola 1996 - day 6 (po) Control (Perpetrator Placebo) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=12)|Time",
               "Y": "Olkkola 1996 - day 6 (po) Control (Perpetrator Placebo) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "255, 128, 0",
+                "Color": "#FF8000",
                 "LegendIndex": 6,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -13302,7 +13310,7 @@
               "X": "Olkkola 1996 - day 1 (po) Control (Perpetrator Placebo) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=12)|Time",
               "Y": "Olkkola 1996 - day 1 (po) Control (Perpetrator Placebo) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Magenta",
+                "Color": "#FF00FF",
                 "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -13313,7 +13321,7 @@
               "X": "Olkkola 1994 - po Control (Perpetrator Placebo) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=9)|Time",
               "Y": "Olkkola 1994 - po Control (Perpetrator Placebo) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Green",
+                "Color": "#008000",
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -13324,7 +13332,7 @@
               "X": "Link 2008 - po Control (Perpetrator Placebo) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=8)|Time",
               "Y": "Link 2008 - po Control (Perpetrator Placebo) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -13335,7 +13343,7 @@
               "X": "Ahonen 1995 - Control (Perpetrator Placebo) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=12)|Time",
               "Y": "Ahonen 1995 - Control (Perpetrator Placebo) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -13688,7 +13696,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -13699,7 +13707,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -13719,7 +13727,7 @@
               "X": "Smith 1981 - oral solution 10 mg - Midazolam - PO - 10 mg - Plasma - agg. (n=6)|Time",
               "Y": "Smith 1981 - oral solution 10 mg - Midazolam - PO - 10 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -14083,7 +14091,7 @@
               "Visible": true,
               "Min": -0.1162777,
               "Max": 13.94921,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -14096,7 +14104,7 @@
               "Visible": true,
               "Min": 0.6674016,
               "Max": 66.57937,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -14116,7 +14124,7 @@
               "X": "Bornemann 1986 - with a meal - Midazolam - PO - 15 mg - Plasma - agg. (n=18)|Time",
               "Y": "Bornemann 1986 - with a meal - Midazolam - PO - 15 mg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 9,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -14481,7 +14489,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -14492,7 +14500,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -14512,7 +14520,7 @@
               "X": "Bornemann 1986 - 1 h before a meal - Midazolam - PO - 15 mg - Plasma - agg. (n=18)|Time",
               "Y": "Bornemann 1986 - 1 h before a meal - Midazolam - PO - 15 mg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 9,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -14876,7 +14884,7 @@
               "Visible": true,
               "Min": 0.9232998,
               "Max": 12.83503,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -14889,7 +14897,7 @@
               "Visible": true,
               "Min": 0.7475061,
               "Max": 43.31379,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -14909,7 +14917,7 @@
               "X": "Bornemann 1986 - 1 h after a meal - Midazolam - PO - 15 mg - Plasma - agg. (n=18)|Time",
               "Y": "Bornemann 1986 - 1 h after a meal - Midazolam - PO - 15 mg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 8,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -15262,7 +15270,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -15273,7 +15281,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -15293,7 +15301,7 @@
               "X": "Okudaira 2007 - EM 0 Control (Perpetrator Placebo) - Midazolam - PO - 2.5 (actually 5) mg - Plasma - agg. (n=12)|Time",
               "Y": "Okudaira 2007 - EM 0 Control (Perpetrator Placebo) - Midazolam - PO - 2.5 (actually 5) mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -15514,7 +15522,7 @@
           ]
         },
         {
-          "Name": "Km",
+          "Name": "Km CYP3A4",
           "Scaling": "Linear",
           "IsFixed": true,
           "LinkedParameters": [
@@ -15542,7 +15550,7 @@
           ]
         },
         {
-          "Name": "kcat",
+          "Name": "kcat CYP3A4",
           "Scaling": "Log",
           "LinkedParameters": [
             "po 3 mg (solution)|Midazolam-CYP3A4-Optimized|kcat",
@@ -15621,7 +15629,7 @@
           ]
         },
         {
-          "Name": "Km",
+          "Name": "Km UGT1A4",
           "Scaling": "Linear",
           "IsFixed": true,
           "LinkedParameters": [
@@ -15649,7 +15657,7 @@
           ]
         },
         {
-          "Name": "kcat",
+          "Name": "kcat UGT1A4",
           "Scaling": "Linear",
           "LinkedParameters": [
             "po 3 mg (solution)|Midazolam-UGT1A4-Optimized|kcat",
@@ -15826,7 +15834,7 @@
                 "Type": "X",
                 "GridLines": false,
                 "Visible": true,
-                "DefaultColor": "White",
+                "DefaultColor": "#FFFFFF",
                 "DefaultLineStyle": "None",
                 "Scaling": "Linear",
                 "NumberMode": "Normal"
@@ -15837,7 +15845,7 @@
                 "Type": "Y",
                 "GridLines": false,
                 "Visible": true,
-                "DefaultColor": "White",
+                "DefaultColor": "#FFFFFF",
                 "DefaultLineStyle": "Solid",
                 "Scaling": "Log",
                 "NumberMode": "Normal"
@@ -15848,7 +15856,7 @@
                 "Type": "Y2",
                 "GridLines": false,
                 "Visible": true,
-                "DefaultColor": "White",
+                "DefaultColor": "#FFFFFF",
                 "DefaultLineStyle": "Dash",
                 "Scaling": "Log",
                 "NumberMode": "Normal"
@@ -15862,7 +15870,7 @@
                 "CurveOptions": {
                   "yAxisType": "Y2",
                   "VisibleInLegend": false,
-                  "Color": "Blue",
+                  "Color": "#0000FF",
                   "LegendIndex": 2,
                   "LineStyle": "None",
                   "Symbol": "Circle"
@@ -15875,7 +15883,7 @@
                 "CurveOptions": {
                   "yAxisType": "Y2",
                   "VisibleInLegend": false,
-                  "Color": "Blue",
+                  "Color": "#0000FF",
                   "LegendIndex": 3,
                   "LineStyle": "None",
                   "Symbol": "Circle"
@@ -15888,7 +15896,7 @@
                 "CurveOptions": {
                   "yAxisType": "Y2",
                   "VisibleInLegend": false,
-                  "Color": "Green",
+                  "Color": "#008000",
                   "LegendIndex": 4,
                   "LineStyle": "None",
                   "Symbol": "Circle"
@@ -15900,7 +15908,7 @@
                 "Y": "Hohmann 2015 - po 3 micg - Midazolam - PO - 3 Âµg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
                 "CurveOptions": {
                   "VisibleInLegend": false,
-                  "Color": "Magenta",
+                  "Color": "#FF00FF",
                   "LegendIndex": 5,
                   "LineStyle": "None",
                   "Symbol": "Circle"
@@ -15912,7 +15920,7 @@
                 "Y": "Hohmann 2015 - iv 1 mg - Midazolam - IV - 1 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
                 "CurveOptions": {
                   "VisibleInLegend": false,
-                  "Color": "255, 128, 0",
+                  "Color": "#FF8000",
                   "LegendIndex": 6,
                   "LineStyle": "None",
                   "Symbol": "Circle"
@@ -15925,7 +15933,7 @@
                 "CurveOptions": {
                   "yAxisType": "Y2",
                   "VisibleInLegend": false,
-                  "Color": "0, 192, 192",
+                  "Color": "#00C0C0",
                   "LegendIndex": 7,
                   "LineStyle": "None",
                   "Symbol": "Circle"
@@ -15938,7 +15946,7 @@
                 "CurveOptions": {
                   "yAxisType": "Y2",
                   "VisibleInLegend": false,
-                  "Color": "192, 0, 192",
+                  "Color": "#C000C0",
                   "LegendIndex": 8,
                   "LineStyle": "None",
                   "Symbol": "Circle"
@@ -15951,7 +15959,7 @@
                 "CurveOptions": {
                   "yAxisType": "Y2",
                   "VisibleInLegend": false,
-                  "Color": "192, 0, 192",
+                  "Color": "#C000C0",
                   "LegendIndex": 9,
                   "LineStyle": "None",
                   "Symbol": "Circle"
@@ -15963,7 +15971,7 @@
                 "Y": "Hohmann 2015 - iv 1 micg - Midazolam - IV - 1 Âµg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
                 "CurveOptions": {
                   "VisibleInLegend": false,
-                  "Color": "192, 64, 0",
+                  "Color": "#C04000",
                   "LegendIndex": 10,
                   "LineStyle": "None",
                   "Symbol": "Circle"
@@ -15974,7 +15982,7 @@
                 "X": "Time",
                 "Y": "iv 0.001 mg (5 min)|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "Magenta",
+                  "Color": "#FF00FF",
                   "LegendIndex": 11
                 }
               },
@@ -15983,7 +15991,7 @@
                 "X": "Time",
                 "Y": "iv 1 mg (5 min)|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "Magenta",
+                  "Color": "#FF00FF",
                   "LegendIndex": 11
                 }
               },
@@ -15992,7 +16000,7 @@
                 "X": "Time",
                 "Y": "po 0.003 mg (solution)|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "Magenta",
+                  "Color": "#FF00FF",
                   "LegendIndex": 11
                 }
               },
@@ -16001,7 +16009,7 @@
                 "X": "Time",
                 "Y": "po 3 mg (solution)|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "Magenta",
+                  "Color": "#FF00FF",
                   "LegendIndex": 11
                 }
               },
@@ -16011,7 +16019,7 @@
                 "Y": "iv 1 mg (5 min)|Organism|Kidney|Urine|Midazolam|Fraction excreted to urine",
                 "CurveOptions": {
                   "yAxisType": "Y2",
-                  "Color": "Blue",
+                  "Color": "#0000FF",
                   "LegendIndex": 14,
                   "LineStyle": "Dash"
                 }
@@ -16022,7 +16030,7 @@
                 "Y": "po 3 mg (solution)|Organism|Kidney|Urine|Midazolam|Fraction excreted to urine",
                 "CurveOptions": {
                   "yAxisType": "Y2",
-                  "Color": "Blue",
+                  "Color": "#0000FF",
                   "LegendIndex": 14,
                   "LineStyle": "Dash"
                 }
@@ -16033,7 +16041,7 @@
                 "Y": "iv 1 mg (5 min)|Organism|Liver|Periportal|Intracellular|Midazolam-UGT1A4-Optimized Metabolite|Fraction of dose-Midazolam",
                 "CurveOptions": {
                   "yAxisType": "Y2",
-                  "Color": "Green",
+                  "Color": "#008000",
                   "LegendIndex": 15,
                   "LineStyle": "Dash"
                 }
@@ -16044,7 +16052,7 @@
                 "Y": "po 3 mg (solution)|Organism|Liver|Periportal|Intracellular|Midazolam-UGT1A4-Optimized Metabolite|Fraction of dose-Midazolam",
                 "CurveOptions": {
                   "yAxisType": "Y2",
-                  "Color": "Green",
+                  "Color": "#008000",
                   "LegendIndex": 15,
                   "LineStyle": "Dash"
                 }
@@ -16054,8 +16062,8 @@
             "Settings": {
               "SideMarginsEnabled": true,
               "LegendPosition": "Bottom",
-              "BackColor": "Transparent",
-              "DiagramBackColor": "White"
+              "BackColor": "#FFFFFF",
+              "DiagramBackColor": "#FFFFFF"
             }
           }
         }
@@ -16260,22 +16268,22 @@
             "MolWeight": 325.77
           },
           "Values": [
-            17.00745,
-            26.76059,
-            32.62783,
-            35.018,
-            35.01306,
-            36.00895,
-            28.89098,
-            24.88269,
-            13.61774,
-            10.25107,
-            6.510167,
-            5.00612,
-            2.918318
+            0.01700745,
+            0.02676059,
+            0.0326278321,
+            0.035018,
+            0.03501306,
+            0.03600895,
+            0.02889098,
+            0.02488269,
+            0.01361774,
+            0.01025107,
+            0.006510167,
+            0.00500612054,
+            0.00291831815
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -16429,20 +16437,20 @@
             "MolWeight": 325.77
           },
           "Values": [
-            0.3656307,
-            27.4223,
-            44.24132,
-            47.53199,
-            48.26325,
-            46.80073,
-            36.19744,
-            21.93784,
-            14.2596,
-            8.775137,
-            0.7312614
+            0.0003656307,
+            0.0274223015,
+            0.04424132,
+            0.0475319922,
+            0.0482632481,
+            0.0468007326,
+            0.0361974426,
+            0.02193784,
+            0.0142596,
+            0.008775137,
+            0.0007312614
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -16595,21 +16603,21 @@
             "MolWeight": 325.77
           },
           "Values": [
-            10.3398924,
-            173.148468,
-            173.828278,
-            153.774582,
-            153.0948,
-            130.661911,
-            120.125221,
-            105.169945,
-            86.4758453,
-            61.6636848,
-            30.7334538,
-            15.09839
+            0.0103398925,
+            0.173148468,
+            0.173828289,
+            0.153774574,
+            0.1530948,
+            0.13066192,
+            0.120125219,
+            0.105169944,
+            0.08647584,
+            0.0616636835,
+            0.0307334531,
+            0.01509839
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -16764,22 +16772,22 @@
             "MolWeight": 325.77
           },
           "Values": [
-            194.221817,
-            178.586761,
-            167.030411,
-            158.872971,
-            143.917709,
-            138.139526,
-            120.805016,
-            102.450806,
-            80.69767,
-            55.88551,
-            41.94991,
-            29.7137737,
-            11.3595705
+            0.19422181,
+            0.178586766,
+            0.167030409,
+            0.158872962,
+            0.14391771,
+            0.138139531,
+            0.12080501,
+            0.1024508,
+            0.08069767,
+            0.05588551,
+            0.04194991,
+            0.0297137741,
+            0.0113595705
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -16932,19 +16940,19 @@
             "MolWeight": 325.77
           },
           "Values": [
-            8.587156,
-            46.56881,
-            43.48624,
-            37.43119,
-            23.66973,
-            17.0642185,
-            10.45872,
-            7.48623848,
-            5.06422,
-            3.302752
+            0.00858715549,
+            0.04656881,
+            0.04348624,
+            0.0374311879,
+            0.023669729,
+            0.01706422,
+            0.01045872,
+            0.007486238,
+            0.00506422,
+            0.003302752
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -17096,20 +17104,20 @@
             "LLOQ": 2E-09
           },
           "Values": [
-            1.0,
-            25.10122,
-            47.3684235,
-            53.84615,
-            54.25101,
-            45.74899,
-            27.12551,
-            18.6234818,
-            14.5749,
-            8.906882,
-            6.477733
+            0.0009999999,
+            0.0251012184,
+            0.0473684222,
+            0.05384615,
+            0.05425101,
+            0.04574899,
+            0.02712551,
+            0.01862348,
+            0.0145748993,
+            0.008906882,
+            0.006477733
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -24193,23 +24201,23 @@
             "MolWeight": 325.77
           },
           "Values": [
-            41.39717,
-            17.138361,
-            13.4773207,
-            10.04696,
-            8.792599,
-            6.7339344,
-            4.888967,
-            3.94977212,
-            3.36645,
-            2.318148,
-            1.223207,
-            0.866071463,
-            0.5510271,
-            0.06595455
+            0.041397173,
+            0.0171383619,
+            0.0134773208,
+            0.01004696,
+            0.008792599,
+            0.0067339344,
+            0.004888967,
+            0.003949772,
+            0.00336645,
+            0.0023181478,
+            0.001223207,
+            0.000866071437,
+            0.000551027129,
+            6.59545549E-05
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -24473,22 +24481,22 @@
             "MolWeight": 325.77
           },
           "Values": [
-            5.1473093,
-            8.555996,
-            7.098001,
-            6.91256762,
-            5.018498,
-            3.84361029,
-            2.943682,
-            2.378262,
-            1.68199,
-            0.7765206,
-            0.5352838,
-            0.399811417,
-            0.05048453
+            0.005147309,
+            0.008555996,
+            0.007098001,
+            0.006912567,
+            0.00501849828,
+            0.00384361041,
+            0.002943682,
+            0.002378262,
+            0.00168199,
+            0.000776520639,
+            0.0005352838,
+            0.0003998114,
+            5.048453E-05
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -25193,25 +25201,25 @@
             "MolWeight": 325.77
           },
           "Values": [
-            2.0,
-            5.06,
-            7.44,
-            6.17,
-            5.75,
-            4.39,
-            3.96999979,
-            3.58000016,
-            2.69,
-            2.5,
-            1.69,
-            1.31,
-            1.11,
-            0.92,
-            0.69,
-            0.61
+            0.00199999986,
+            0.00506,
+            0.00744000031,
+            0.00617,
+            0.00575,
+            0.00439,
+            0.00397,
+            0.00358,
+            0.00269,
+            0.0025,
+            0.00169000006,
+            0.00131,
+            0.00111,
+            0.00092,
+            0.00069,
+            0.00061
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -25378,30 +25386,30 @@
             "MolWeight": 325.77
           },
           "Values": [
-            0.2321083,
-            3.288201,
-            7.388782,
-            11.48936,
-            14.042551,
-            12.6499,
-            8.433269,
-            8.085107,
-            7.5435195,
-            7.079304,
-            6.576402,
-            5.725338,
-            4.95164347,
-            3.9845264,
-            3.365571,
-            3.172147,
-            2.591876,
-            1.934236,
-            1.470019,
-            1.276596,
-            0.8897486
+            0.000232108287,
+            0.003288201,
+            0.007388782,
+            0.01148936,
+            0.0140425507,
+            0.0126499,
+            0.008433268,
+            0.0080851065,
+            0.0075435196,
+            0.007079304,
+            0.006576402,
+            0.005725338,
+            0.00495164376,
+            0.00398452627,
+            0.003365571,
+            0.003172147,
+            0.002591876,
+            0.00193423615,
+            0.001470019,
+            0.001276596,
+            0.000889748568
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -29136,19 +29144,19 @@
             "MolWeight": 325.77
           },
           "Values": [
-            68.9598,
-            57.9323,
-            37.6251,
-            26.0418987,
-            16.2026,
-            11.5996008,
-            9.031301,
-            5.05984,
-            2.63218,
-            0.304768
+            0.0689598,
+            0.0579323024,
+            0.0376251,
+            0.0260418989,
+            0.0162026,
+            0.0115996,
+            0.0090313,
+            0.00505984,
+            0.00263218,
+            0.000304767978
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -29269,18 +29277,18 @@
             "MolWeight": 325.77
           },
           "Values": [
-            60.24532,
-            47.1182556,
-            29.3443031,
-            18.2912369,
-            15.1264143,
-            12.2538013,
-            9.375188,
-            4.21438932,
-            1.77203166
+            0.06024532,
+            0.0471182577,
+            0.0293443035,
+            0.0182912368,
+            0.0151264137,
+            0.0122538013,
+            0.009375188,
+            0.00421438925,
+            0.00177203165
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -30351,18 +30359,18 @@
             "MolWeight": 325.77
           },
           "Values": [
-            428.2528,
-            206.3197,
-            160.5948,
-            121.5613,
-            101.487,
-            90.33457,
-            73.60595,
-            41.26394,
-            22.30483
+            0.428252816,
+            0.2063197,
+            0.1605948,
+            0.1215613,
+            0.101486996,
+            0.09033457,
+            0.07360595,
+            0.041263938,
+            0.02230483
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -30482,23 +30490,23 @@
             "MolWeight": 325.77
           },
           "Values": [
-            12.10635,
-            64.88906,
-            60.44231,
-            58.33107,
-            53.18992,
-            45.83131,
-            35.00319,
-            23.03062,
-            16.97242,
-            10.85523,
-            7.72142267,
-            5.895428,
-            4.406638,
-            2.738073
+            0.01210635,
+            0.06488906,
+            0.06044231,
+            0.0583310723,
+            0.05318992,
+            0.04583131,
+            0.03500319,
+            0.02303062,
+            0.01697242,
+            0.0108552305,
+            0.00772142271,
+            0.00589542836,
+            0.004406638,
+            0.002738073
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -30623,23 +30631,23 @@
             "MolWeight": 325.77
           },
           "Values": [
-            11.3585,
-            50.99948,
-            53.96478,
-            52.07867,
-            49.20153,
-            42.69612,
-            41.1976,
-            30.7935123,
-            21.44283,
-            14.20879,
-            9.08786,
-            7.501276,
-            4.663615,
-            2.605565
+            0.0113584995,
+            0.05099948,
+            0.05396478,
+            0.05207867,
+            0.0492015332,
+            0.0426961221,
+            0.0411976,
+            0.0307935122,
+            0.02144283,
+            0.01420879,
+            0.009087861,
+            0.007501276,
+            0.00466361549,
+            0.00260556513
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -30764,24 +30772,24 @@
             "MolWeight": 325.77
           },
           "Values": [
-            7.217612,
-            42.72161,
-            46.83517,
-            42.70817,
-            47.15435,
-            41.50267,
-            39.20428,
-            29.72177,
-            22.85464,
-            15.03755,
-            9.68621,
-            6.697373,
-            5.077395,
-            2.981042,
-            1.97421014
+            0.00721761165,
+            0.04272161,
+            0.0468351729,
+            0.0427081734,
+            0.0471543521,
+            0.04150267,
+            0.03920428,
+            0.02972177,
+            0.02285464,
+            0.01503755,
+            0.00968621,
+            0.006697373,
+            0.005077395,
+            0.00298104179,
+            0.00197421014
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -30987,8 +30995,8 @@
     {
       "Name": "Olkkola 1993",
       "Classifiables": [
-        "Olkkola 1993 - iv Control (Perpetrator Placebo) - Midazolam - IV - 0.05 mg/kg - Plasma - agg. (n=6)",
-        "Olkkola 1993 - po Control (Perpetrator Placebo) - Midazolam - PO - 15 mg - Plasma - agg. (n=12)"
+        "Olkkola 1993 - po Control (Perpetrator Placebo) - Midazolam - PO - 15 mg - Plasma - agg. (n=12)",
+        "Olkkola 1993 - iv Control (Perpetrator Placebo) - Midazolam - IV - 0.05 mg/kg - Plasma - agg. (n=6)"
       ]
     },
     {
