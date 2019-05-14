@@ -1999,7 +1999,7 @@
       "Name": "iv 0.001 mg (5 min)",
       "Model": "4Comp",
       "ObservedData": [
-        "Hohmann 2015 - iv 1 micg - Midazolam - IV - 1 Âµg - Plasma - agg. (n=16)"
+        "Hohmann 2015 - iv 0.001 mg - Midazolam - IV - 0.001 mg - Plasma - agg. (n=16)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -2357,9 +2357,9 @@
               }
             },
             {
-              "Name": "Hohmann 2015 - iv 1 micg - Midazolam - IV - 1 Âµg - Plasma - agg. (n=16)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Hohmann 2015 - iv 1 micg - Midazolam - IV - 1 Âµg - Plasma - agg. (n=16)|Time",
-              "Y": "Hohmann 2015 - iv 1 micg - Midazolam - IV - 1 Âµg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "Name": "Hohmann 2015 - iv 0.001 mg - Midazolam - IV - 0.001 mg - Plasma - agg. (n=16)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Hohmann 2015 - iv 0.001 mg - Midazolam - IV - 0.001 mg - Plasma - agg. (n=16)|Time",
+              "Y": "Hohmann 2015 - iv 0.001 mg - Midazolam - IV - 0.001 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 3,
@@ -4544,7 +4544,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -5049,7 +5048,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -5144,7 +5142,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -5215,7 +5212,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -6755,7 +6751,7 @@
       "Name": "po 0.003 mg (solution)",
       "Model": "4Comp",
       "ObservedData": [
-        "Hohmann 2015 - po 3 micg - Midazolam - PO - 3 Âµg - Plasma - agg. (n=16)"
+        "Hohmann 2015 - po 0.003 mg - Midazolam - PO - 0.003 mg - Plasma - agg. (n=16)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -7099,7 +7095,7 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "ng/ml",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
@@ -7112,9 +7108,9 @@
           ],
           "Curves": [
             {
-              "Name": "Hohmann 2015 - po 3 micg - Midazolam - PO - 3 Âµg - Plasma - agg. (n=16)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Hohmann 2015 - po 3 micg - Midazolam - PO - 3 Âµg - Plasma - agg. (n=16)|Time",
-              "Y": "Hohmann 2015 - po 3 micg - Midazolam - PO - 3 Âµg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "Name": "Hohmann 2015 - po 0.003 mg - Midazolam - PO - 0.003 mg - Plasma - agg. (n=16)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Hohmann 2015 - po 0.003 mg - Midazolam - PO - 0.003 mg - Plasma - agg. (n=16)|Time",
+              "Y": "Hohmann 2015 - po 0.003 mg - Midazolam - PO - 0.003 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -7127,7 +7123,6 @@
               "X": "Time",
               "Y": "po 0.003 mg (solution)|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -7141,7 +7136,7 @@
       "Name": "po 0.075 mg (solution)",
       "Model": "4Comp",
       "ObservedData": [
-        "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)"
+        "Eap 2004 - 0.075 mg Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=21)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -7505,9 +7500,9 @@
               }
             },
             {
-              "Name": "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)-Midazolam-Peripheral Venous Blood-Plasma-GeometricMean",
-              "X": "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)|Time",
-              "Y": "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricMean",
+              "Name": "Eap 2004 - 0.075 mg Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=21)-Midazolam-Peripheral Venous Blood-Plasma-GeometricMean",
+              "X": "Eap 2004 - 0.075 mg Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=21)|Time",
+              "Y": "Eap 2004 - 0.075 mg Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=21)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricMean",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 3,
@@ -15385,7 +15380,7 @@
         {
           "Scaling": "Log",
           "Path": "po 0.003 mg (solution)|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Hohmann 2015 - po 3 micg - Midazolam - PO - 3 Âµg - Plasma - agg. (n=16)"
+          "ObservedData": "Hohmann 2015 - po 0.003 mg - Midazolam - PO - 0.003 mg - Plasma - agg. (n=16)"
         },
         {
           "Scaling": "Log",
@@ -15410,7 +15405,7 @@
         {
           "Scaling": "Log",
           "Path": "iv 0.001 mg (5 min)|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Hohmann 2015 - iv 1 micg - Midazolam - IV - 1 Âµg - Plasma - agg. (n=16)"
+          "ObservedData": "Hohmann 2015 - iv 0.001 mg - Midazolam - IV - 0.001 mg - Plasma - agg. (n=16)"
         }
       ],
       "IdentificationParameters": [
@@ -15903,9 +15898,9 @@
                 }
               },
               {
-                "Name": "Hohmann 2015 - po 3 micg - Midazolam - PO - 3 Âµg - Plasma - agg. (n=16)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
-                "X": "Hohmann 2015 - po 3 micg - Midazolam - PO - 3 Âµg - Plasma - agg. (n=16)|Time",
-                "Y": "Hohmann 2015 - po 3 micg - Midazolam - PO - 3 Âµg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+                "Name": "Hohmann 2015 - po 0.003 mg - Midazolam - PO - 0.003 mg - Plasma - agg. (n=16)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+                "X": "Hohmann 2015 - po 0.003 mg - Midazolam - PO - 0.003 mg - Plasma - agg. (n=16)|Time",
+                "Y": "Hohmann 2015 - po 0.003 mg - Midazolam - PO - 0.003 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
                 "CurveOptions": {
                   "VisibleInLegend": false,
                   "Color": "#FF00FF",
@@ -15966,95 +15961,15 @@
                 }
               },
               {
-                "Name": "Hohmann 2015 - iv 1 micg - Midazolam - IV - 1 Âµg - Plasma - agg. (n=16)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
-                "X": "Hohmann 2015 - iv 1 micg - Midazolam - IV - 1 Âµg - Plasma - agg. (n=16)|Time",
-                "Y": "Hohmann 2015 - iv 1 micg - Midazolam - IV - 1 Âµg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+                "Name": "Hohmann 2015 - iv 0.001 mg - Midazolam - IV - 0.001 mg - Plasma - agg. (n=16)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+                "X": "Hohmann 2015 - iv 0.001 mg - Midazolam - IV - 0.001 mg - Plasma - agg. (n=16)|Time",
+                "Y": "Hohmann 2015 - iv 0.001 mg - Midazolam - IV - 0.001 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
                 "CurveOptions": {
                   "VisibleInLegend": false,
                   "Color": "#C04000",
                   "LegendIndex": 10,
                   "LineStyle": "None",
                   "Symbol": "Circle"
-                }
-              },
-              {
-                "Name": "iv 0.001 mg (5 min)-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "iv 0.001 mg (5 min)|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#FF00FF",
-                  "LegendIndex": 11
-                }
-              },
-              {
-                "Name": "iv 1 mg (5 min)-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "iv 1 mg (5 min)|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#FF00FF",
-                  "LegendIndex": 11
-                }
-              },
-              {
-                "Name": "po 0.003 mg (solution)-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "po 0.003 mg (solution)|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#FF00FF",
-                  "LegendIndex": 11
-                }
-              },
-              {
-                "Name": "po 3 mg (solution)-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "po 3 mg (solution)|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#FF00FF",
-                  "LegendIndex": 11
-                }
-              },
-              {
-                "Name": "iv 1 mg (5 min)-Midazolam-Kidney-Urine-Fraction excreted to urine",
-                "X": "Time",
-                "Y": "iv 1 mg (5 min)|Organism|Kidney|Urine|Midazolam|Fraction excreted to urine",
-                "CurveOptions": {
-                  "yAxisType": "Y2",
-                  "Color": "#0000FF",
-                  "LegendIndex": 14,
-                  "LineStyle": "Dash"
-                }
-              },
-              {
-                "Name": "po 3 mg (solution)-Midazolam-Kidney-Urine-Fraction excreted to urine",
-                "X": "Time",
-                "Y": "po 3 mg (solution)|Organism|Kidney|Urine|Midazolam|Fraction excreted to urine",
-                "CurveOptions": {
-                  "yAxisType": "Y2",
-                  "Color": "#0000FF",
-                  "LegendIndex": 14,
-                  "LineStyle": "Dash"
-                }
-              },
-              {
-                "Name": "iv 1 mg (5 min)-Midazolam-UGT1A4-Optimized Metabolite-Liver Periportal-Intracellular-Fraction of dose-Midazolam",
-                "X": "Time",
-                "Y": "iv 1 mg (5 min)|Organism|Liver|Periportal|Intracellular|Midazolam-UGT1A4-Optimized Metabolite|Fraction of dose-Midazolam",
-                "CurveOptions": {
-                  "yAxisType": "Y2",
-                  "Color": "#008000",
-                  "LegendIndex": 15,
-                  "LineStyle": "Dash"
-                }
-              },
-              {
-                "Name": "po 3 mg (solution)-Midazolam-UGT1A4-Optimized Metabolite-Liver Periportal-Intracellular-Fraction of dose-Midazolam",
-                "X": "Time",
-                "Y": "po 3 mg (solution)|Organism|Liver|Periportal|Intracellular|Midazolam-UGT1A4-Optimized Metabolite|Fraction of dose-Midazolam",
-                "CurveOptions": {
-                  "yAxisType": "Y2",
-                  "Color": "#008000",
-                  "LegendIndex": 15,
-                  "LineStyle": "Dash"
                 }
               }
             ],
@@ -23971,7 +23886,7 @@
       }
     },
     {
-      "Name": "Hohmann 2015 - iv 1 micg - Midazolam - IV - 1 Âµg - Plasma - agg. (n=16)",
+      "Name": "Hohmann 2015 - iv 0.001 mg - Midazolam - IV - 0.001 mg - Plasma - agg. (n=16)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -23995,7 +23910,7 @@
         },
         {
           "Name": "Grouping",
-          "Value": "iv 1 micg"
+          "Value": "iv 0.001 mg"
         },
         {
           "Name": "Data type",
@@ -24027,7 +23942,7 @@
         },
         {
           "Name": "Dose",
-          "Value": "1 Âµg"
+          "Value": "0.001 mg"
         },
         {
           "Name": "Times of Administration [h]",
@@ -24051,7 +23966,7 @@
           "Name": "Avg",
           "QuantityInfo": {
             "Name": "Avg",
-            "Path": "Hohmann 2015 - iv 1 micg - Midazolam - IV - 1 Âµg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean"
+            "Path": "Hohmann 2015 - iv 0.001 mg - Midazolam - IV - 0.001 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -24083,7 +23998,7 @@
         "Name": "Time",
         "QuantityInfo": {
           "Name": "Time",
-          "Path": "Hohmann 2015 - iv 1 micg - Midazolam - IV - 1 Âµg - Plasma - agg. (n=16)|Time",
+          "Path": "Hohmann 2015 - iv 0.001 mg - Midazolam - IV - 0.001 mg - Plasma - agg. (n=16)|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -24253,7 +24168,7 @@
       }
     },
     {
-      "Name": "Hohmann 2015 - po 3 micg - Midazolam - PO - 3 Âµg - Plasma - agg. (n=16)",
+      "Name": "Hohmann 2015 - po 0.003 mg - Midazolam - PO - 0.003 mg - Plasma - agg. (n=16)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -24277,7 +24192,7 @@
         },
         {
           "Name": "Grouping",
-          "Value": "po 3 micg"
+          "Value": "po 0.003 mg"
         },
         {
           "Name": "Data type",
@@ -24309,7 +24224,7 @@
         },
         {
           "Name": "Dose",
-          "Value": "3 Âµg"
+          "Value": "0.003 mg"
         },
         {
           "Name": "Times of Administration [h]",
@@ -24333,7 +24248,7 @@
           "Name": "Avg",
           "QuantityInfo": {
             "Name": "Avg",
-            "Path": "Hohmann 2015 - po 3 micg - Midazolam - PO - 3 Âµg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean"
+            "Path": "Hohmann 2015 - po 0.003 mg - Midazolam - PO - 0.003 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -24364,7 +24279,7 @@
         "Name": "Time",
         "QuantityInfo": {
           "Name": "Time",
-          "Path": "Hohmann 2015 - po 3 micg - Midazolam - PO - 3 Âµg - Plasma - agg. (n=16)|Time",
+          "Path": "Hohmann 2015 - po 0.003 mg - Midazolam - PO - 0.003 mg - Plasma - agg. (n=16)|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -30090,7 +30005,7 @@
       }
     },
     {
-      "Name": "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)",
+      "Name": "Eap 2004 - 0.075 mg Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=21)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -30114,7 +30029,7 @@
         },
         {
           "Name": "Grouping",
-          "Value": "75 micg Control (Perpetrator Placebo)"
+          "Value": "0.075 mg Control (Perpetrator Placebo)"
         },
         {
           "Name": "Data type",
@@ -30146,7 +30061,7 @@
         },
         {
           "Name": "Dose",
-          "Value": "75 Âµg"
+          "Value": "0.075 mg"
         },
         {
           "Name": "Times of Administration [h]",
@@ -30173,7 +30088,7 @@
               "Name": "Var",
               "QuantityInfo": {
                 "Name": "Var",
-                "Path": "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricStdDev"
+                "Path": "Eap 2004 - 0.075 mg Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=21)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -30195,7 +30110,7 @@
           ],
           "QuantityInfo": {
             "Name": "Avg",
-            "Path": "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricMean"
+            "Path": "Eap 2004 - 0.075 mg Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=21)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -30220,7 +30135,7 @@
         "Name": "Time",
         "QuantityInfo": {
           "Name": "Time",
-          "Path": "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)|Time",
+          "Path": "Eap 2004 - 0.075 mg Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=21)|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -30939,9 +30854,9 @@
     {
       "Name": "Hohmann 2015",
       "Classifiables": [
-        "Hohmann 2015 - iv 1 micg - Midazolam - IV - 1 Âµg - Plasma - agg. (n=16)",
+        "Hohmann 2015 - iv 0.001 mg - Midazolam - IV - 0.001 mg - Plasma - agg. (n=16)",
         "Hohmann 2015 - iv 1 mg - Midazolam - IV - 1 mg - Plasma - agg. (n=16)",
-        "Hohmann 2015 - po 3 micg - Midazolam - PO - 3 Âµg - Plasma - agg. (n=16)",
+        "Hohmann 2015 - po 0.003 mg - Midazolam - PO - 0.003 mg - Plasma - agg. (n=16)",
         "Hohmann 2015 - po 3 mg - Midazolam - PO - 3 mg - Plasma - agg. (n=16)"
       ]
     },
@@ -31095,7 +31010,7 @@
       "Name": "Eap 2004",
       "Classifiables": [
         "Eap 2004 - 7.5 mg Control (Perpetrator Placebo) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=13)",
-        "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)"
+        "Eap 2004 - 0.075 mg Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=21)"
       ]
     },
     {
