@@ -5034,17 +5034,6 @@
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#ECD33A",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
             }
           ],
           "Curves": [
@@ -5129,17 +5118,6 @@
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
             }
           ],
           "Curves": [
@@ -5199,17 +5177,6 @@
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
               "NumberMode": "Normal"
             }
           ],
@@ -13244,8 +13211,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": -0.227522939,
-              "Max": 25.2672787,
+              "Min": -0.2275229,
+              "Max": 25.26728,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -13258,7 +13225,7 @@
               "GridLines": false,
               "Visible": true,
               "Min": 0.09416887,
-              "Max": 336.449432,
+              "Max": 336.4494,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -24683,9 +24650,10 @@
             "MolWeight": 502.899
           },
           "Values": [
-            0.0216467883
+            2.16467881
           ],
-          "Dimension": "Fraction"
+          "Dimension": "Fraction",
+          "Unit": "%"
         }
       ],
       "BaseGrid": {
@@ -24797,20 +24765,20 @@
             "MolWeight": 325.77
           },
           "Values": [
-            0.02807617,
-            0.02201741,
-            0.01424062,
-            0.007675129,
-            0.006201037,
-            0.004860217,
-            0.003732899,
-            0.00253738579,
-            0.00188920787,
-            0.001572301,
-            0.001256607
+            28.07617,
+            22.01741,
+            14.24062,
+            7.675129,
+            6.201037,
+            4.860217,
+            3.732899,
+            2.537386,
+            1.889208,
+            1.572301,
+            1.256607
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -24932,24 +24900,24 @@
             "MolWeight": 325.77
           },
           "Values": [
-            0.0226,
-            0.0158999991,
-            0.00945,
-            0.00675,
-            0.00413,
-            0.00373999984,
-            0.0033,
-            0.00271,
-            0.00232,
-            0.00161,
-            0.00131,
-            0.00112,
-            0.00081,
-            0.0007,
-            0.00051
+            22.6,
+            15.9,
+            9.45,
+            6.75,
+            4.13,
+            3.73999977,
+            3.3,
+            2.71,
+            2.32,
+            1.61,
+            1.31,
+            1.12,
+            0.81,
+            0.7,
+            0.51
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -25489,29 +25457,29 @@
             "MolWeight": 325.77
           },
           "Values": [
-            0.061621327,
-            0.02618743,
-            0.02044153,
-            0.01441864,
-            0.01138242,
-            0.009399509,
-            0.007849926,
-            0.00733712129,
-            0.006630036,
-            0.0055370233,
-            0.004892001,
-            0.004273728,
-            0.003733594,
-            0.003225206,
-            0.00240667886,
-            0.00192140392,
-            0.001450004,
-            0.001355281,
-            0.00110664894,
-            0.0009036291
+            61.62133,
+            26.18743,
+            20.44153,
+            14.41864,
+            11.38242,
+            9.399508,
+            7.849926,
+            7.337121,
+            6.630036,
+            5.537023,
+            4.892001,
+            4.273728,
+            3.733594,
+            3.225206,
+            2.406679,
+            1.92140388,
+            1.450004,
+            1.355281,
+            1.10664892,
+            0.9036291
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -26856,28 +26824,28 @@
             "MolWeight": 325.77
           },
           "Values": [
-            0.088439934,
-            0.04364608,
-            0.0241063181,
-            0.0211012177,
-            0.01415264,
-            0.009784649,
-            0.009488017,
-            0.009106511,
-            0.008563273,
-            0.007970452,
-            0.00780733628,
-            0.006831773,
-            0.006165917,
-            0.004970392,
-            0.004767931,
-            0.002913667,
-            0.002075948,
-            0.00189086189,
-            0.00141797191
+            88.43993,
+            43.64608,
+            24.10632,
+            21.10122,
+            14.15264,
+            9.78465,
+            9.488017,
+            9.106511,
+            8.563272,
+            7.970453,
+            7.80733633,
+            6.831773,
+            6.165917,
+            4.970392,
+            4.767931,
+            2.913667,
+            2.075948,
+            1.89086187,
+            1.417972
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -28507,9 +28475,10 @@
             "MolWeight": 325.77
           },
           "Values": [
-            0.0027
+            0.27
           ],
-          "Dimension": "Fraction"
+          "Dimension": "Fraction",
+          "Unit": "%"
         }
       ],
       "BaseGrid": {
@@ -28640,9 +28609,10 @@
             "MolWeight": 325.77
           },
           "Values": [
-            0.0028
+            0.28
           ],
-          "Dimension": "Fraction"
+          "Dimension": "Fraction",
+          "Unit": "%"
         }
       ],
       "BaseGrid": {
