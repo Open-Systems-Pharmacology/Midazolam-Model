@@ -5932,8 +5932,8 @@
               "X": "Link 2008 - iv Control (Perpetrator Placebo) - Midazolam - IV - 2 mg - Plasma - agg. (n=8)|Time",
               "Y": "Link 2008 - iv Control (Perpetrator Placebo) - Midazolam - IV - 2 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
+                "Color": "#0000FF",
+                "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -5943,8 +5943,8 @@
               "X": "Darwish 2008 - iv - Midazolam - IV - 2 mg - Plasma - agg. (n=24)|Time",
               "Y": "Darwish 2008 - iv - Midazolam - IV - 2 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 3,
+                "Color": "#FF0000",
+                "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -11273,8 +11273,8 @@
       "Name": "po 5 mg (solution)",
       "Model": "4Comp",
       "ObservedData": [
-        "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)",
-        "Tham 2006 - Control (Perpetrator Placebo) - Midazolam - IV - 1 mg - Plasma - agg. (n=28)"
+        "Tham 2006 - Control (Perpetrator Placebo) - Midazolam - IV - 1 mg - Plasma - agg. (n=28)",
+        "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -11638,23 +11638,23 @@
               }
             },
             {
-              "Name": "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)|Time",
-              "Y": "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "Tham 2006 - Control (Perpetrator Placebo) - Midazolam - IV - 1 mg - Plasma - agg. (n=28)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
               "X": "Tham 2006 - Control (Perpetrator Placebo) - Midazolam - IV - 1 mg - Plasma - agg. (n=28)|Time",
               "Y": "Tham 2006 - Control (Perpetrator Placebo) - Midazolam - IV - 1 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#0000FF",
-                "LegendIndex": 7,
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)|Time",
+              "Y": "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 8,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -17175,362 +17175,6 @@
           3.0,
           4.0,
           6.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)",
-      "ExtendedProperties": [
-        {
-          "Name": "DB Version",
-          "Value": "OSP DATABASE"
-        },
-        {
-          "Name": "ID",
-          "Value": 118.0
-        },
-        {
-          "Name": "Study Id",
-          "Value": "Darwish 2008"
-        },
-        {
-          "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/18076219"
-        },
-        {
-          "Name": "Source",
-          "Value": "Fig. 4"
-        },
-        {
-          "Name": "Grouping",
-          "Value": "oral"
-        },
-        {
-          "Name": "Data type",
-          "Value": "aggregated"
-        },
-        {
-          "Name": "N",
-          "Value": 24.0
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Midazolam"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma"
-        },
-        {
-          "Name": "Route",
-          "Value": "PO"
-        },
-        {
-          "Name": "Dose",
-          "Value": "5 mg"
-        },
-        {
-          "Name": "Times of Administration [h]",
-          "Value": 0.0
-        },
-        {
-          "Name": "Formulation",
-          "Value": "."
-        },
-        {
-          "Name": "Food state",
-          "Value": "Fasted"
-        },
-        {
-          "Name": "Comment",
-          "Value": "."
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Avg",
-          "RelatedColumns": [
-            {
-              "Name": "Var",
-              "QuantityInfo": {
-                "Name": "Var",
-                "Path": "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticStdDev"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
-                "MolWeight": 325.77
-              },
-              "Values": [
-                "NaN",
-                0.0008563104,
-                0.00158634107,
-                0.002037359,
-                0.001293151,
-                0.00120616111,
-                0.0009924965,
-                0.0007512112,
-                0.0006181369,
-                0.0005016017,
-                0.000180757488,
-                0.000181478492,
-                0.0001025277,
-                9.253913E-05,
-                4.092206E-05
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "mg/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Name": "Avg",
-            "Path": "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
-            "MolWeight": 325.77,
-            "LLOQ": 1E-09
-          },
-          "Values": [
-            0.000499999966,
-            0.00368580385,
-            0.0134596005,
-            0.0152569516,
-            0.01483785,
-            0.01383978,
-            0.01138811,
-            0.008619536,
-            0.007092616,
-            0.00575546827,
-            0.004236587,
-            0.002082325,
-            0.00117642607,
-            0.0006929882,
-            0.0001436343
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Name": "Time",
-          "Path": "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
-        },
-        "Values": [
-          0.0,
-          0.17,
-          0.33,
-          0.5,
-          0.75,
-          1.0,
-          1.5,
-          2.0,
-          2.5,
-          3.0,
-          4.0,
-          6.0,
-          9.0,
-          12.0,
-          24.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Darwish 2008 - iv - Midazolam - IV - 2 mg - Plasma - agg. (n=24)",
-      "ExtendedProperties": [
-        {
-          "Name": "DB Version",
-          "Value": "OSP DATABASE"
-        },
-        {
-          "Name": "ID",
-          "Value": 119.0
-        },
-        {
-          "Name": "Study Id",
-          "Value": "Darwish 2008"
-        },
-        {
-          "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/18076219"
-        },
-        {
-          "Name": "Source",
-          "Value": "Fig. 4"
-        },
-        {
-          "Name": "Grouping",
-          "Value": "iv"
-        },
-        {
-          "Name": "Data type",
-          "Value": "aggregated"
-        },
-        {
-          "Name": "N",
-          "Value": 24.0
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Midazolam"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma"
-        },
-        {
-          "Name": "Route",
-          "Value": "IV"
-        },
-        {
-          "Name": "Dose",
-          "Value": "2 mg"
-        },
-        {
-          "Name": "Times of Administration [h]",
-          "Value": 0.0
-        },
-        {
-          "Name": "Formulation",
-          "Value": "."
-        },
-        {
-          "Name": "Food state",
-          "Value": "Fasted"
-        },
-        {
-          "Name": "Comment",
-          "Value": "."
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Avg",
-          "RelatedColumns": [
-            {
-              "Name": "Var",
-              "QuantityInfo": {
-                "Name": "Var",
-                "Path": "Darwish 2008 - iv - Midazolam - IV - 2 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticStdDev"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
-                "MolWeight": 325.77
-              },
-              "Values": [
-                "NaN",
-                0.00163079507,
-                0.001707243,
-                0.001383862,
-                0.0008615036,
-                0.0009251709,
-                0.000710032531,
-                0.0005610151,
-                0.0004752893,
-                9.1568465E-05,
-                0.0002000093,
-                0.0001500053,
-                0.0001349884,
-                0.0001063794,
-                3.51210219E-05
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "mg/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Name": "Avg",
-            "Path": "Darwish 2008 - iv - Midazolam - IV - 2 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
-            "MolWeight": 325.77,
-            "LLOQ": 1E-09
-          },
-          "Values": [
-            0.000499999966,
-            0.03825684,
-            0.02978061,
-            0.0241723713,
-            0.0201737,
-            0.01614934,
-            0.01240241,
-            0.009792784,
-            0.008290795,
-            0.00654654671,
-            0.00469202641,
-            0.002620178,
-            0.001548889,
-            0.0009029115,
-            0.000212143088
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Name": "Time",
-          "Path": "Darwish 2008 - iv - Midazolam - IV - 2 mg - Plasma - agg. (n=24)|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
-        },
-        "Values": [
-          0.0,
-          0.17,
-          0.33,
-          0.5,
-          0.75,
-          1.0,
-          1.5,
-          2.0,
-          2.5,
-          3.0,
-          4.0,
-          6.0,
-          9.0,
-          12.0,
-          24.0
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -25642,22 +25286,22 @@
             "MolWeight": 325.77
           },
           "Values": [
-            0.1773568,
-            0.04757944,
-            0.03316938,
-            0.02859046,
-            0.02571214,
-            0.019512929,
-            0.01578181,
-            0.0119768111,
-            0.006336411,
-            0.00342422375,
-            0.001850466,
-            0.00131769711,
-            8.528557E-05
+            177.3568,
+            47.57944,
+            33.16938,
+            28.59046,
+            25.71214,
+            19.512928,
+            15.78181,
+            11.9768114,
+            6.336411,
+            3.424224,
+            1.850466,
+            1.317697,
+            0.08528557
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -28329,16 +27973,16 @@
             "MolWeight": 325.77
           },
           "Values": [
-            0.0581005551,
-            0.03992551,
-            0.02592179,
-            0.0239851,
-            0.02026071,
-            0.009832402,
-            0.00670391
+            58.1005554,
+            39.9255066,
+            25.92179,
+            23.9851,
+            20.26071,
+            9.832401,
+            6.70391
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -30699,6 +30343,362 @@
         "Dimension": "Time",
         "Unit": "h"
       }
+    },
+    {
+      "Name": "Darwish 2008 - iv - Midazolam - IV - 2 mg - Plasma - agg. (n=24)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 119.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Darwish 2008"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/18076219"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 4"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "iv"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 24.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "IV"
+        },
+        {
+          "Name": "Dose",
+          "Value": "2 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "Arith. SEM converted to arith. SD"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Name": "Var",
+                "Path": "Darwish 2008 - iv - Midazolam - IV - 2 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "0001-01-01T00:00:00",
+                "MolWeight": 325.77
+              },
+              "Values": [
+                "NaN",
+                0.0079892315,
+                0.008363749,
+                0.00677951146,
+                0.00422048848,
+                0.00453239353,
+                0.00347843464,
+                0.0027484016,
+                0.00232843263,
+                0.0004485921,
+                0.0009798415,
+                0.0007348729,
+                0.000661305443,
+                0.0005211505,
+                0.000172057145
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Darwish 2008 - iv - Midazolam - IV - 2 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 325.77,
+            "LLOQ": 1E-09
+          },
+          "Values": [
+            0.5,
+            38.25684,
+            29.78061,
+            24.17237,
+            20.1737,
+            16.14934,
+            12.40241,
+            9.792785,
+            8.290794,
+            6.546547,
+            4.692026,
+            2.620178,
+            1.548889,
+            0.9029115,
+            0.2121431
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Darwish 2008 - iv - Midazolam - IV - 2 mg - Plasma - agg. (n=24)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.0,
+          0.17,
+          0.33,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          2.5,
+          3.0,
+          4.0,
+          6.0,
+          9.0,
+          12.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 118.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Darwish 2008"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/18076219"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 4"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "oral"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 24.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "Arith. SEM converted to arith. SD"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Name": "Var",
+                "Path": "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "0001-01-01T00:00:00",
+                "MolWeight": 325.77
+              },
+              "Values": [
+                "NaN",
+                0.004195047,
+                0.007771452,
+                0.009980979,
+                0.00633512,
+                0.00590895768,
+                0.00486222,
+                0.00368016819,
+                0.00302823982,
+                0.00245733629,
+                0.0008855273,
+                0.000889059447,
+                0.000502281066,
+                0.0004533473,
+                0.000200476323
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 325.77,
+            "LLOQ": 1E-09
+          },
+          "Values": [
+            0.5,
+            3.685804,
+            13.4596,
+            15.2569513,
+            14.83785,
+            13.83978,
+            11.38811,
+            8.619535,
+            7.092616,
+            5.755468,
+            4.236587,
+            2.082325,
+            1.176426,
+            0.6929882,
+            0.1436343
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.0,
+          0.17,
+          0.33,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          2.5,
+          3.0,
+          4.0,
+          6.0,
+          9.0,
+          12.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
     }
   ],
   "ObservedDataClassifications": [
@@ -30730,8 +30730,8 @@
     {
       "Name": "Darwish 2008",
       "Classifiables": [
-        "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)",
-        "Darwish 2008 - iv - Midazolam - IV - 2 mg - Plasma - agg. (n=24)"
+        "Darwish 2008 - iv - Midazolam - IV - 2 mg - Plasma - agg. (n=24)",
+        "Darwish 2008 - oral - Midazolam - PO - 5 mg - Plasma - agg. (n=24)"
       ]
     },
     {
