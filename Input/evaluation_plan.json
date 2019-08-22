@@ -1663,13 +1663,13 @@
     },
     "Inputs": [
         {
-            "Project": "Compound",
+            "Project": "Midazolam",
             "Name": "Midazolam",
             "Type": "Compound",
             "SectionId": 31
         },
         {
-            "Project": "Compound",
+            "Project": "Midazolam",
             "Name": "Tablet (Dormicum)",
             "Type": "Formulation",
             "SectionId": 31
