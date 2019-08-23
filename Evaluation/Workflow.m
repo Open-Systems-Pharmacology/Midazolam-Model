@@ -16,14 +16,14 @@ tic
 %
 % - jsonFile: report configuration file defined in the Qualification Runner
 %             (default is 'report-configuration-plan.json')
-REInput_path = fullfile(cd,'re_input');
-REOutput_path = fullfile(cd,'re_output');
+REInput_path = fullfile(cd,'Output','re_input');
+REOutput_path = fullfile(cd,'Output','re_output');
 jsonFile = 'report-configuration-plan.json';
 
 % --------------------------------------------------------------
 %OPTIONAL: replace qualificationRunnerPath and qualificationPlan with your paths and call the qualification runner first
 qualificationRunnerPath = fullfile(cd,'..','..','..','_software','QualificationRunner');
-qualificationPlan = fullfile(cd,'..','input','evaluation_plan.json');
+qualificationPlan = fullfile(cd,'Input','evaluation_plan.json');
 
 startQualificationRunner(qualificationRunnerPath, qualificationPlan, REInput_path);
 
@@ -51,7 +51,7 @@ fprintf('\n Qualification Workflow Duration: %0.1f minutes \n', QualificationWor
 %
 % - MarkdownJoiner_path: location of markdown-joiner.exe
 
-ReportOutput_path=fullfile(cd,'evaluation_report');
+ReportOutput_path=fullfile(cd,'Output','md_output');
 MarkdownJoiner_path=fullfile(cd,'..','..','..','_software','markdown-joiner','markdown-joiner.exe');
 
 % alternative #1: ReportOutput_path must be empty. If not, report generation will fail
