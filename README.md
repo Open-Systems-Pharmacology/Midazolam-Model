@@ -1,34 +1,39 @@
 # Midazolam-Model
 Whole-body PBPK model of midazolam.
 
+**The latest release of this model including a report on model building, model features and model evaluation can be found [here](../../releases/latest).**
+
 <p align="center">
   <img src="Midazolam.png">
 </p> 
 
 This midazolam model is intended to be used as victim drug in CYP3A4-mediated drug-drug interactions (DDI).
 
-## Repository files
-Within this repository, we distribute a whole-body PBPK model of midazolam, that has been  developed using in particular published pharmacokinetic clinical data by Hohmann et al. 2015 [[1](#reference)], Hyland et al. 2009 [[2](#reference)] and Thummel et al. 1996 [[3](#reference)]. 
-The model has then been evaluated simulating a large number of clinical studies and comparing with respective observed data. Furthermore, it has been evaluated within a DDI modeling network as a victim drug. 
+This whole-body PBPK model of midazolam has been  developed using in particular published pharmacokinetic clinical data by Hohmann et al. 2015 [[1](#references)], Hyland et al. 2009 [[2](#references)] and Thummel et al. 1996 [[3](#references)]. 
+The model has then been evaluated simulating a large number of clinical studies and comparing with respective observed data. 
 
-The presented model represents an update of the midazolam model presented by Hanke et al. [[4](#reference)].
-
+The presented model represents an update of the midazolam model presented by Hanke et al. [[4](#references)].
 Additional features in this update are:
 
 - direct UGT1A4 metabolism,
 - a decrease in the permeability between the intracellular and interstitial space  (parameters "P (intracellular->interstitial)" and "P (interstitial->intracellular)") in intestinal mucosa to optimize quantitatively the extent of gut wall metabolism,
 - and binding to a hypothetical binding partner in the brain to optimize a late redistribution phase in midazolam plasma concentrations.
 
+
 ## Code of conduct
+
 Everyone interacting in the Open Systems Pharmacology community (codebases, issue trackers, chat rooms, mailing lists etc...) is expected to follow the Open Systems Pharmacology [code of conduct](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct).
 
 ## Contribution
+
 We encourage contribution to the Open Systems Pharmacology community. Before getting started please read the [contribution guidelines](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CONTRIBUTING.md#ways-to-contribute). If you are contributing code, please be familiar with the [coding standard](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODING_STANDARDS.md#visual-studio-settings).
 
 ## License
+
 The model code is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
 
-## Reference
+## References
+
 [1] [Hohmann N, Kocheise F, Carls A, Burhenne J, Haefeli WE, Mikus G. Midazolam microdose to determine systemic and pre-systemic metabolic CYP3A activity in humans. Br J Clin Pharmacol (2015)](https://doi.org/10.1111/bcp.12502)
 
 [2] [Hyland R, Osborne T, Payne A, Kempshall S, Logan YR, Ezzeddine K, Jones B. In vitro and in vivo glucuronidation of midazolam in humans. Br J Clin Pharmacol (2009)](https://doi.org/10.1111/j.1365-2125.2009.03386.x)
