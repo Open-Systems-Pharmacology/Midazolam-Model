@@ -9,12 +9,10 @@ This midazolam model is intended to be used as victim drug in CYP3A4-mediated dr
 
 **The latest release of this model including a report on model building, model features and model evaluation can be found [here](../../releases/latest).**
 
-## Repository files
-Within this repository, we distribute a whole-body PBPK model of midazolam, that has been  developed using in particular published pharmacokinetic clinical data by Hohmann et al. 2015 [[1](#references)], Hyland et al. 2009 [[2](#references)] and Thummel et al. 1996 [[3](#references)]. 
-The model has then been evaluated simulating a large number of clinical studies and comparing with respective observed data. Furthermore, it has been evaluated within a DDI modeling network as a victim drug. 
+This whole-body PBPK model of midazolam has been  developed using in particular published pharmacokinetic clinical data by Hohmann et al. 2015 [[1](#references)], Hyland et al. 2009 [[2](#references)] and Thummel et al. 1996 [[3](#references)]. 
+The model has then been evaluated simulating a large number of clinical studies and comparing with respective observed data. 
 
 The presented model represents an update of the midazolam model presented by Hanke et al. [[4](#references)].
-
 Additional features in this update are:
 
 - direct UGT1A4 metabolism,
