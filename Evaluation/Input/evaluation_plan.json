@@ -3,7 +3,7 @@
     "Projects": [
         {
             "Id": "Midazolam",
-            "Path": "https://raw.githubusercontent.com/sfrechen/Midazolam-Model/master/Midazolam-Model.json",
+            "Path": "../../Midazolam-Model.json",
             "BuildingBlocks": [],
             "SimulationParameters": [
                 {
