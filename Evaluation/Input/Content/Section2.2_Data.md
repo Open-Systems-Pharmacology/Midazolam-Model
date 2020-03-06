@@ -1,4 +1,4 @@
-### 2.2.1 In vitro / physico-chemical data
+### 2.2.1 In vitro and physico-chemical data
 
 A literature search was performed to collect available information on physical chemical properties of midazolam. The obtained information from literature is summarized in the table below, and is used for model building.
 
@@ -27,7 +27,7 @@ A literature search was performed to collect available information on physical c
 | V<sub>max</sub>, K<sub>m</sub> UGT1A4 | pmol/min/mg<br />µmol/L    | 276<br />37.8    | [Klieber 2008](#5-References)     | UGT1A4 liver mircosomes Michaelis-Menten kinetics            |
 | K<sub>D</sub> GABRG2                  | nmol/L                     | 1.8              | [Buhr 1997](#5-References)        | Binding affinity to GABRG2 (Gamma-Aminobutyric Acid Type A Receptor Subunit Gamma2) |
 
-### 2.2.2	Clinical data
+### 2.2.2 Clinical data
 
 A literature search was performed to collect available clinical data on midazolam in adults. 
 

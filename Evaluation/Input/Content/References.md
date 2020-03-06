@@ -1,5 +1,7 @@
 
 
+**Achour 2014** Achour B, Russell MR, Barber J, Rostami-Hodjegan A. Simultaneous quantification of the abundance of several cytochrome P450 and uridine 5'-diphospho-glucuronosyltransferase enzymes in human liver microsomes using multiplexed targeted proteomics. Drug Metab Dispos. 2014 Apr;42(4):500-10.
+
 **Ahonen 1995** Ahonen J, Olkkola KT, Neuvonen PJ. Effect of itraconazole and terbinafine on the pharmacokinetics and pharmacodynamics of midazolam in healthy volunteers. Br J Clin Pharmacol. 1995 Sep;40(3):270-2.
 
 **Allonen 1981** Allonen H, Ziegler G, Klotz U. Midazolam kinetics. Clin Pharmacol Ther. 1981 Nov;30(5):653-61.
