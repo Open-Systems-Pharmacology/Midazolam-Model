@@ -1,13 +1,12 @@
 # Midazolam-Model
 Whole-body PBPK model of midazolam.
+**The latest release of this model including a report on model building, model features and model evaluation can be found [here](../../releases/latest).**
 
 <p align="center">
   <img src="Midazolam.png">
 </p> 
 
 This midazolam model is intended to be used as victim drug in CYP3A4-mediated drug-drug interactions (DDI).
-
-**The latest release of this model including a report on model building, model features and model evaluation can be found [here](../../releases/latest).**
 
 This whole-body PBPK model of midazolam has been  developed using in particular published pharmacokinetic clinical data by Hohmann et al. 2015 [[1](#references)], Hyland et al. 2009 [[2](#references)] and Thummel et al. 1996 [[3](#references)]. 
 The model has then been evaluated simulating a large number of clinical studies and comparing with respective observed data. 
