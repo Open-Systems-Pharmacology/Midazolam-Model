@@ -68,6 +68,8 @@
 
 **Klieber 2008** Klieber S, Hugla S, Ngo R, Arabeyre-Fabre C, Meunier V, Sadoun F, Fedeli O, Rival M, Bourrie M, Guillou F, Maurel P, Fabre G. Contribution of the N-glucuronidation pathway to the overall in vitro metabolic clearance of midazolam in humans. Drug Metab Dispos. 2008 May;36(5):851-62.
 
+**Kuepfer 2016** Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model.CPT Pharmacometrics Syst Pharmacol. 2016 Oct;5(10):516-531.
+
 **Lam 2003** Lam YW, Alfaro CL, Ereshefsky L, Miller M. Pharmacokinetic and pharmacodynamic interactions of oral midazolam with ketoconazole, fluoxetine, fluvoxamine, and nefazodone. J Clin Pharmacol. 2003 Nov;43(11):1274-82.
 
 **Link 2008** Link B, Haschke M, Grignaschi N, Bodmer M, Aschmann YZ, Wenk M, Krähenbühl S. Pharmacokinetics of intravenous and oral midazolam in plasma and saliva in humans: usefulness of saliva as matrix for CYP3A phenotyping. Br J Clin Pharmacol. 2008 Oct;66(4):473-84.
@@ -79,6 +81,8 @@
 **Markert 2013** Markert C, Hellwig R, Burhenne J, Hoffmann MM, Weiss J, Mikus G, Haefeli WE. Interaction of ambrisentan with clarithromycin and its modulation by polymorphic SLCO1B1. Eur J Clin Pharmacol. 2013 Oct;69(10):1785-93.
 
 **Mikus 2017** Mikus G, Heinrich T, Bödigheimer J, Röder C, Matthee AK, Weiss J, Burhenne J, Haefeli WE. Semisimultaneous Midazolam Administration to Evaluate the Time Course of CYP3A Activation by a Single Oral Dose of Efavirenz. J Clin Pharmacol. 2017 Jul;57(7):899-905.
+
+**Nishimura 2013** Nishimura M, Yaguti H, Yoshitsugu H, Naito S, Satoh T. Tissue distribution of mRNA expression of human cytochrome P450 isoforms assessed by high-sensitivity real-time reverse transcription PCR. Yakugaku Zasshi. 2003 May;123(5):369-75.	
 
 **Okudaira 2007** Okudaira T, Kotegawa T, Imai H, Tsutsumi K, Nakano S, Ohashi K. Effect of the treatment period with erythromycin on cytochrome P450 3A activity in humans. J Clin Pharmacol. 2007 Jul;47(7):871-6.
 
@@ -94,6 +98,8 @@
 
 **Phimmasone 2001** Phimmasone S, Kharasch ED. A pilot evaluation of alfentanil-induced miosis as a noninvasive probe for hepatic cytochrome P450 3A4 (CYP3A4) activity in humans. Clin Pharmacol Ther. 2001 Dec;70(6):505-17.
 
+**PK-Sim Ontogeny Database Version 7.3** (https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/38cf71b384cfc25cfa0ce4d2f3addfd32757e13b/PK-Sim%20Ontogeny%20Database%20Version%207.3.pdf)	
+
 **Prueksaritanont 2017** Prueksaritanont T,, Tatosian DA, Chu X, Railkar R, Evers R, Chavez-Eng C, Lutz R, Zeng W, Yabut J, Chan GH, Cai X, Latham AH, Hehman J, Stypinski D, Brejda J, Zhou C, Thornton B, Bateman KP, Fraser I,, Stoch SA. Validation of a microdose probe drug cocktail for clinical drug interaction assessments for drug transporters and CYP3A. Clin Pharmacol Ther. 2017 Apr;101(4):519-530.
 
 **Quinney 2008** Quinney SK, Haehner BD, Rhoades MB, Lin Z, Gorski JC, Hall SD. Interaction between midazolam and clarithromycin in the elderly. Br J Clin Pharmacol. 2008 Jan;65(1):98-109.
@@ -103,6 +109,8 @@
 **Rodrigues 1999** Rodrigues AD. Integrated cytochrome P450 reaction phenotyping: attempting to bridge the gap between cDNA-expressed cytochromes P450 and native human liver microsomes. Biochem Pharmacol. 1999 Mar 1;57(5):465-80.
 
 **Saari 2006** Saari TI, Laine K, Leino K, Valtonen M, Neuvonen PJ, Olkkola KT. Effect of voriconazole on the pharmacokinetics and pharmacodynamics of intravenous and oral midazolam. Clin Pharmacol Ther. 2006 Apr;79(4):362-70.
+
+**Schlender 2016** Schlender JF, Meyer M, Thelen K, Krauss M, Willmann S, Eissing T, Jaehde U. Development of a Whole-Body Physiologically Based Pharmacokinetic Approach to Assess the Pharmacokinetics of Drugs in Elderly Individuals. Clin Pharmacokinet. 2016 Dec;55(12):1573-1589. 
 
 **Schwagmeier 1998** Schwagmeier R, Alincic S, Striebel HW. Midazolam pharmacokinetics following intravenous and buccal administration. Br J Clin Pharmacol. 1998 Sep;46(3):203-6.
 
