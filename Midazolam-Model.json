@@ -14660,9 +14660,6 @@
     {
       "Name": "po 2.5 mg (solution)",
       "Model": "4Comp",
-      "ObservedData": [
-        "Okudaira 2007 - EM 0 Control (Perpetrator Placebo) - Midazolam - PO - 2.5 (actually 5) mg - Plasma - agg. (n=12)"
-      ],
       "Solver": {},
       "OutputSchema": [
         {
@@ -15014,17 +15011,6 @@
               "Y": "po 2.5 mg (solution)|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Okudaira 2007 - EM 0 Control (Perpetrator Placebo) - Midazolam - PO - 2.5 (actually 5) mg - Plasma - agg. (n=12)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Okudaira 2007 - EM 0 Control (Perpetrator Placebo) - Midazolam - PO - 2.5 (actually 5) mg - Plasma - agg. (n=12)|Time",
-              "Y": "Okudaira 2007 - EM 0 Control (Perpetrator Placebo) - Midazolam - PO - 2.5 (actually 5) mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
               }
             }
           ],
@@ -26468,165 +26454,6 @@
       }
     },
     {
-      "Name": "Okudaira 2007 - EM 0 Control (Perpetrator Placebo) - Midazolam - PO - 2.5 (actually 5) mg - Plasma - agg. (n=12)",
-      "ExtendedProperties": [
-        {
-          "Name": "DB Version",
-          "Value": "OSP DATABASE"
-        },
-        {
-          "Name": "ID",
-          "Value": 361.0
-        },
-        {
-          "Name": "Study Id",
-          "Value": "Okudaira 2007"
-        },
-        {
-          "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17585116"
-        },
-        {
-          "Name": "Source",
-          "Value": "Fig. 1"
-        },
-        {
-          "Name": "Grouping",
-          "Value": "EM 0 Control (Perpetrator Placebo)"
-        },
-        {
-          "Name": "Data type",
-          "Value": "aggregated"
-        },
-        {
-          "Name": "N",
-          "Value": 12.0
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Midazolam"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma"
-        },
-        {
-          "Name": "Route",
-          "Value": "PO"
-        },
-        {
-          "Name": "Dose",
-          "Value": "2.5 (actually 5) mg"
-        },
-        {
-          "Name": "Times of Administration [h]",
-          "Value": 0.0
-        },
-        {
-          "Name": "Formulation",
-          "Value": "Dormicum, injectable solution; Astellas Pharma Inc"
-        },
-        {
-          "Name": "Food state",
-          "Value": "Fed"
-        },
-        {
-          "Name": "Comment",
-          "Value": "."
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Avg",
-          "RelatedColumns": [
-            {
-              "Name": "Var",
-              "QuantityInfo": {
-                "Name": "Var",
-                "Path": "Okudaira 2007 - EM 0 Control (Perpetrator Placebo) - Midazolam - PO - 2.5 (actually 5) mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticStdDev"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
-                "MolWeight": 325.77
-              },
-              "Values": [
-                0.001030928,
-                0.001082475,
-                0.001082475,
-                0.001082475,
-                0.001082475,
-                0.001082474,
-                0.001030928,
-                0.0009793811,
-                0.001082474
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "mg/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Name": "Avg",
-            "Path": "Okudaira 2007 - EM 0 Control (Perpetrator Placebo) - Midazolam - PO - 2.5 (actually 5) mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
-            "MolWeight": 325.77
-          },
-          "Values": [
-            0.004123711,
-            0.008041237,
-            0.00871134,
-            0.00871134,
-            0.008041237,
-            0.005360825,
-            0.00226804079,
-            0.0012886601,
-            0.0006185567
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Name": "Time",
-          "Path": "Okudaira 2007 - EM 0 Control (Perpetrator Placebo) - Midazolam - PO - 2.5 (actually 5) mg - Plasma - agg. (n=12)|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
-        },
-        "Values": [
-          0.33,
-          0.66,
-          1.0,
-          1.5,
-          2.0,
-          3.0,
-          5.0,
-          8.0,
-          14.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
       "Name": "Olkkola 1993 - iv Control (Perpetrator Placebo) - Midazolam - IV - 0.05 mg/kg - Plasma - agg. (n=6)",
       "ExtendedProperties": [
         {
@@ -33788,7 +33615,6 @@
     {
       "Name": "Okudaira 2007",
       "Classifiables": [
-        "Okudaira 2007 - EM 0 Control (Perpetrator Placebo) - Midazolam - PO - 2.5 (actually 5) mg - Plasma - agg. (n=12)",
         "Okudaira 2007 - EM 0 Control (Perpetrator Placebo) - Midazolam - PO - 5 mg - Plasma - agg. (n=12)"
       ]
     },

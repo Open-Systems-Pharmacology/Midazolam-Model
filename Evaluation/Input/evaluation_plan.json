@@ -1683,13 +1683,6 @@
                             },
                             {
                                 "Project": "Midazolam",
-                                "Simulation": "po 2.5 mg (solution)",
-                                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Okudaira 2007 - EM 0 Control (Perpetrator Placebo) - Midazolam - PO - 2.5 (actually 5) mg - Plasma - agg. (n=12)",
-                                "Color": "#b2182b"
-                            },
-                            {
-                                "Project": "Midazolam",
                                 "Simulation": "po 10 mg (solution)",
                                 "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Lam 2003 - Midazolam before Fluvoxamine - Midazolam - PO - 10 mg - Plasma - agg. (n=10)",
