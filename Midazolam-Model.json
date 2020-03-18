@@ -33788,7 +33788,8 @@
     {
       "Name": "Okudaira 2007",
       "Classifiables": [
-        "Okudaira 2007 - EM 0 Control (Perpetrator Placebo) - Midazolam - PO - 2.5 (actually 5) mg - Plasma - agg. (n=12)"
+        "Okudaira 2007 - EM 0 Control (Perpetrator Placebo) - Midazolam - PO - 2.5 (actually 5) mg - Plasma - agg. (n=12)",
+        "Okudaira 2007 - EM 0 Control (Perpetrator Placebo) - Midazolam - PO - 5 mg - Plasma - agg. (n=12)"
       ]
     },
     {
@@ -33943,6 +33944,37 @@
       "Classifiables": [
         "Quinney 2008 - Control iv Midazolam All - Midazolam - IV - 0.05 mg/kg - Whole Blood - agg. (n=16)",
         "Quinney 2008 - Control po Midazolam All - Midazolam - PO - 3.0 - 4.0 mg - Whole Blood - agg. (n=16)"
+      ]
+    },
+    {
+      "Name": "Shin 2013",
+      "Classifiables": [
+        "Shin 2013 - Control phase (Midazolam alone) - Midazolam - IV - 1 mg - Plasma - agg. (n=24)"
+      ]
+    },
+    {
+      "Name": "Shin 2016",
+      "Classifiables": [
+        "Shin 2016 - Midazolam alone - Midazolam - IV - 1 mg - Plasma - agg. (n=12)"
+      ]
+    },
+    {
+      "Name": "Backman 1994",
+      "Classifiables": [
+        "Backman 1994 - Midazolam with placebo - Midazolam - PO - 15 mg - Plasma - agg. (n=9)"
+      ]
+    },
+    {
+      "Name": "Katzenmaier 2010",
+      "Classifiables": [
+        "Katzenmaier 2010 - Midazolam control - Midazolam - PO - 3 mg - Plasma - agg. (n=12)"
+      ]
+    },
+    {
+      "Name": "Mikus 2017",
+      "Classifiables": [
+        "Mikus 2017 - Midazolam control PO - Midazolam - PO - 4 mg - Plasma - agg. (n=12)",
+        "Mikus 2017 - Midazolam control IV - Midazolam - IV - 2 mg - Plasma - agg. (n=12)"
       ]
     }
   ],

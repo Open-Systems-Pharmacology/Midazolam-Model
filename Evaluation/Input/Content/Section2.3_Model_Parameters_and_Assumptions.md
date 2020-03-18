@@ -21,6 +21,8 @@ Two metabolic pathways were implement into the model via Michaelis-Menten kineti
 * CYP3A4
 * UGT1A4
 
+The CYP3A4 expression profiles is based on high-sensitive real-time RT-PCR ([Nishimura 2013](#5 References)). UGT1A4 was assumed to be exclusively expressed in the liver. Absolute tissue-specific expressions were obtained by considering the respective absolute concentration in the liver. The PK-Sim database provides a default value for CYP3A4 (compare [Rodrigues 1999](#5-References) and assume 40 mg protein per gram liver). A reference concentration of 2.32 µmol/L in the liver for UGT1A4 was derived from a quantification reported by Achour*et al.* ([Achour 2014](#5-References)) with 58.0 pmol/mg in Human Liver Microsomes (assuming 40 mg protein per gram liver).
+
 Additionally, a renal clearance (assumed to be mainly driven by glomerular filtration) was implemented.
 
 The first model simulations showed that gut wall metabolization was underrepresented in the PBPK model. In order to increase gut wall metabolization, the “mucosa permeability on basolateral side” (jointly the model parameters in the muscosa: ``P (interstitial->intracellular)`` and ``P (intracellular->interstitial)``) was estimated. A decrease in this permeability may lead to higher gut wall concentrations and, in turn, to a higher gut wall elimination. This parameter was preferred over other parameters such as relative CYP3A4 expression or fraction unbound (fu) in the gut wall as it is technically not limited to a maximum value of 100%.
