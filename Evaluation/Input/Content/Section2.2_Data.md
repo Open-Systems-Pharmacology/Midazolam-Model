@@ -77,6 +77,7 @@ The following dosing senarios were simulated and compared to respective data for
 |                                                              | [Phimmasone 2001](5-References)      |
 |                                                              | [Shin 2013](5-References)            |
 |                                                              | [Shin 2016](5-References)            |
+| iv 1 mg (2 min)<br />Corean CYP3A5\*3/\*3 only, CYP3A4 reference concentration adjusted | [Yu 2004](5-References)              |
 | iv 2 mg (bolus)                                              | [Darwish 2008](5-References)         |
 | iv 5 mg (30 sec)                                             | [Schwagmeier 1998](5-References)     |
 | iv 5 mg (bolus)                                              | [Smith 1981](5-References)           |
