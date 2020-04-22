@@ -30,7 +30,7 @@
 # 1 Introduction
 Midazolam is a widely-used sedative, approved as premedication before surgical interventions. It is almost exclusively metabolized by CYP3A4, turning it into a sensitive probe and victim drug for the investigation of in vivo CYP3A4 activity. Midazolam shows substantial first pass metabolism, resulting in a bioavailability of under 50%. Less than 1% of a midazolam dose is excreted unchanged in urine.
 
-The herein presented model represents an update of the midazolam model publisdhed by Hanke et al. ([Hanke 2018](#5-References)). The model has been  developed using in particular published pharmacokinetic clinical data by Hohmann et al. ([Hohmann 2015](#5-Reference)), Hyland et al. 2009 ([Hyland 2009](#5-References)) and Thummel et al. 1996 ([Thummel 1996](#5-References)). It has then been evaluated by comparing observed data to simulations of a large number of clinical studies covering a dose range from 0.05 mg/kg to 20 mg after intravenous and oral administrations. Furthermore, it has been evaluated within a CYP3A4 DDI modeling network as a victim drug. 
+The herein presented model represents an update of the midazolam model published by Hanke et al. ([Hanke 2018](#5-References)). The model has been  developed using in particular published pharmacokinetic clinical data by Hohmann et al. ([Hohmann 2015](#5-Reference)), Hyland et al. 2009 ([Hyland 2009](#5-References)) and Thummel et al. 1996 ([Thummel 1996](#5-References)). It has then been evaluated by comparing observed data to simulations of a large number of clinical studies covering a dose range from 0.05 mg/kg to 20 mg after intravenous and oral administrations. Furthermore, it has been evaluated within a CYP3A4 DDI modeling network as a victim drug. 
 
 Model features include:
 
@@ -51,7 +51,7 @@ The general concept of building a PBPK model has previously been described by Ku
 
 The  applied activity and variability of plasma proteins and active processes that are integrated into PK-Sim® are described in the publicly available PK-Sim® Ontogeny Database Version 7.3 ([Schlender 2016](#5-References)) or otherwise referenced for the specific process.
 
-First, a mean model was built using clinical data from single dose studies with intravenous and oral administration of midazolam by Hohmann et al. ([Hohmann 2015](#5-Reference)) (plasma concentration), Hyland et al. 2009 ([Hyland 2009](#5-References)) (fraction metabolized via UGT1A4), and Thummel et al. 1996 ([Thummel 1996](#5-References)) (fraction excreted into urine of unchanged drug). The mean PBPK model was developed using a typical European individual. The relative tissue-specific expressions of enzymes predominantly being involved in the metabolism of midazolam (CYP3A4 and UGT1A4) were considered. The CYP3A4 expression profiles is based on high-sensitive real-time RT-PCR ([Nishimura 2013](#5 References)). UGT1A4 was assumed to be exclusively expressed in the liver. Absolute tissue-specific expressions were obtained by considering the respective absolute concentration in the liver. The PK-Sim database provides a default value for CYP3A4 (compare [Rodrigues 1999](#5-References) and assume 40 mg protein per gram liver). A reference concentration of 2.32 µmol/L in the liver for UGT1A4 was derived from a quantification reported by Achour*et al.* ([Achour 2014](#5-References)) with 58.0 pmol/mg in Human Liver Microsomes (assuming 40 mg protein per gram liver)
+First, a mean model was built using clinical data from single dose studies with intravenous and oral administration of midazolam by Hohmann et al. ([Hohmann 2015](#5-Reference)) (plasma concentration), Hyland et al. 2009 ([Hyland 2009](#5-References)) (fraction metabolized via UGT1A4), and Thummel et al. 1996 ([Thummel 1996](#5-References)) (fraction excreted into urine of unchanged drug). The mean PBPK model was developed using a typical European individual. The relative tissue-specific expressions of enzymes predominantly being involved in the metabolism of midazolam (CYP3A4 and UGT1A4) were considered.
 
 A specific set of parameters (see below) was optimized using the Parameter Identification module provided in PK-Sim®. Structural model selection was mainly guided by visual inspection of the resulting description of data and biological plausibility.
 
@@ -146,6 +146,7 @@ The following dosing senarios were simulated and compared to respective data for
 |                                                              | [Phimmasone 2001](5-References)      |
 |                                                              | [Shin 2013](5-References)            |
 |                                                              | [Shin 2016](5-References)            |
+| iv 1 mg (2 min)<br />Corean CYP3A5\*3/\*3 only, CYP3A4 reference concentration adjusted | [Yu 2004](5-References)              |
 | iv 2 mg (bolus)                                              | [Darwish 2008](5-References)         |
 | iv 5 mg (30 sec)                                             | [Schwagmeier 1998](5-References)     |
 | iv 5 mg (bolus)                                              | [Smith 1981](5-References)           |
@@ -209,11 +210,12 @@ Two metabolic pathways were implement into the model via Michaelis-Menten kineti
 * CYP3A4
 * UGT1A4
 
+The CYP3A4 expression profiles is based on high-sensitive real-time RT-PCR ([Nishimura 2013](#5 References)). UGT1A4 was assumed to be exclusively expressed in the liver. Absolute tissue-specific expressions were obtained by considering the respective absolute concentration in the liver. The PK-Sim database provides a default value for CYP3A4 (compare [Rodrigues 1999](#5-References) and assume 40 mg protein per gram liver). A reference concentration of 2.32 µmol/L in the liver for UGT1A4 was derived from a quantification reported by Achour*et al.* ([Achour 2014](#5-References)) with 58.0 pmol/mg in Human Liver Microsomes (assuming 40 mg protein per gram liver).
+
 Additionally, a renal clearance (assumed to be mainly driven by glomerular filtration) was implemented.
 
 The first model simulations showed that gut wall metabolization was underrepresented in the PBPK model. In order to increase gut wall metabolization, the “mucosa permeability on basolateral side” (jointly the model parameters in the muscosa: ``P (interstitial->intracellular)`` and ``P (intracellular->interstitial)``) was estimated. A decrease in this permeability may lead to higher gut wall concentrations and, in turn, to a higher gut wall elimination. This parameter was preferred over other parameters such as relative CYP3A4 expression or fraction unbound (fu) in the gut wall as it is technically not limited to a maximum value of 100%.
 
-***
 ### 2.3.4 Automated Parameter Identification
 
 This is the result of the final parameter identification for the base model:
@@ -259,9 +261,9 @@ The compound parameter values of the final PBPK model are illustrated below.
 
 
 
-### Compound: Midazolam
+# Compound: Midazolam
 
-#### Parameters
+## Parameters
 
 Name                                             | Value                   | Value Origin                                                                                                                                                 | Alternative        | Default |
 ------------------------------------------------ | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ | ------- |
@@ -279,45 +281,45 @@ F                                                | 1                       |    
 Is small molecule                                | Yes                     |                                                                                                                                                              |                    |         |
 Molecular weight                                 | 325.78 g/mol            |                                                                                                                                                              |                    |         |
 Plasma protein binding partner                   | Albumin                 |                                                                                                                                                              |                    |         |
-#### Calculation methods
+## Calculation methods
 
 Name                    | Value               |
 ----------------------- | ------------------- |
 Partition coefficients  | Rodgers and Rowland |
 Cellular permeabilities | PK-Sim Standard     |
-#### Processes
+## Processes
 
-##### Specific Binding: GABRG2-Buhr 1997
+### Specific Binding: GABRG2-Buhr 1997
 
 Molecule: GABRG2
-###### Parameters
+#### Parameters
 
 Name | Value      | Value Origin                                                                                                                                                 |
 ---- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 koff | 1 1/min    | Parameter Identification-Parameter Identification-Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10 |
 Kd   | 1.8 nmol/l |                                                                                                                                                              |
-##### Systemic Process: Glomerular Filtration-Optimized
+### Systemic Process: Glomerular Filtration-Optimized
 
 Species: Human
-###### Parameters
+#### Parameters
 
 Name         |        Value | Value Origin                                                                                                                                                 |
 ------------ | ------------:| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 GFR fraction | 0.6401025724 | Parameter Identification-Parameter Identification-Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10 |
-##### Metabolizing Enzyme: CYP3A4-Optimized
+### Metabolizing Enzyme: CYP3A4-Optimized
 
 Molecule: CYP3A4
-###### Parameters
+#### Parameters
 
 Name                               | Value                        | Value Origin                                                                                                                                                 |
 ---------------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 In vitro Vmax for liver microsomes | 850 pmol/min/mg mic. protein |                                                                                                                                                              |
 Km                                 | 4 µmol/l                     | Other-In Vitro-aggregated from literature                                                                                                                    |
 kcat                               | 8.7607941215 1/min           | Parameter Identification-Parameter Identification-Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10 |
-##### Metabolizing Enzyme: UGT1A4-Optimized
+### Metabolizing Enzyme: UGT1A4-Optimized
 
 Molecule: UGT1A4
-###### Parameters
+#### Parameters
 
 Name                                        | Value                        | Value Origin                                                                                                                                                 |
 ------------------------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -326,10 +328,10 @@ Content of CYP proteins in liver microsomes | 58 pmol/mg mic. protein      | Pub
 Km                                          | 37.8 µmol/l                  | Publication-Klieber 2008                                                                                                                                     |
 kcat                                        | 3.5911771641 1/min           | Parameter Identification-Parameter Identification-Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10 |
 
-### Formulation: Tablet (Dormicum)
+# Formulation: Tablet (Dormicum)
 
 Type: Weibull
-#### Parameters
+## Parameters
 
 Name                             | Value            | Value Origin                                                                                                |
 -------------------------------- | ---------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -348,7 +350,7 @@ The first plot shows observed versus simulated plasma concentration, the second 
 
 ![002_plotGOFMergedResidualsOverTime.png](images\003_3_Results_and_Discussion\002_3_2_Diagnostics_Plots\002_plotGOFMergedResidualsOverTime.png)
 
-GMFE = 1.455407 
+GMFE = 1.451121 
 
 ## 3.3 Concentration-Time Profiles
 Simulated versus observed concentration-time profiles of all data listed in [Section 2.2.2](#2.2.2-Clinical-data) are presented below.
@@ -441,6 +443,8 @@ Simulated versus observed concentration-time profiles of all data listed in [Sec
 
 ![030_plotTimeProfile.png](images\003_3_Results_and_Discussion\003_3_3_Concentration-Time_Profiles\002_3_3_2_Model_Verification\030_plotTimeProfile.png)
 
+![031_plotTimeProfile.png](images\003_3_Results_and_Discussion\003_3_3_Concentration-Time_Profiles\002_3_3_2_Model_Verification\031_plotTimeProfile.png)
+
 # 4 Conclusion
 The herein presented PBPK model adequately describes the pharmacokinetics of midazolam in adults.
 
@@ -518,6 +522,8 @@ In particular, it applies quantitative metabolism by CYP3A4. Thus, the model is 
 
 **Klieber 2008** Klieber S, Hugla S, Ngo R, Arabeyre-Fabre C, Meunier V, Sadoun F, Fedeli O, Rival M, Bourrie M, Guillou F, Maurel P, Fabre G. Contribution of the N-glucuronidation pathway to the overall in vitro metabolic clearance of midazolam in humans. Drug Metab Dispos. 2008 May;36(5):851-62.
 
+**Kuepfer 2016** Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model.CPT Pharmacometrics Syst Pharmacol. 2016 Oct;5(10):516-531.
+
 **Lam 2003** Lam YW, Alfaro CL, Ereshefsky L, Miller M. Pharmacokinetic and pharmacodynamic interactions of oral midazolam with ketoconazole, fluoxetine, fluvoxamine, and nefazodone. J Clin Pharmacol. 2003 Nov;43(11):1274-82.
 
 **Link 2008** Link B, Haschke M, Grignaschi N, Bodmer M, Aschmann YZ, Wenk M, Krähenbühl S. Pharmacokinetics of intravenous and oral midazolam in plasma and saliva in humans: usefulness of saliva as matrix for CYP3A phenotyping. Br J Clin Pharmacol. 2008 Oct;66(4):473-84.
@@ -529,6 +535,8 @@ In particular, it applies quantitative metabolism by CYP3A4. Thus, the model is 
 **Markert 2013** Markert C, Hellwig R, Burhenne J, Hoffmann MM, Weiss J, Mikus G, Haefeli WE. Interaction of ambrisentan with clarithromycin and its modulation by polymorphic SLCO1B1. Eur J Clin Pharmacol. 2013 Oct;69(10):1785-93.
 
 **Mikus 2017** Mikus G, Heinrich T, Bödigheimer J, Röder C, Matthee AK, Weiss J, Burhenne J, Haefeli WE. Semisimultaneous Midazolam Administration to Evaluate the Time Course of CYP3A Activation by a Single Oral Dose of Efavirenz. J Clin Pharmacol. 2017 Jul;57(7):899-905.
+
+**Nishimura 2013** Nishimura M, Yaguti H, Yoshitsugu H, Naito S, Satoh T. Tissue distribution of mRNA expression of human cytochrome P450 isoforms assessed by high-sensitivity real-time reverse transcription PCR. Yakugaku Zasshi. 2003 May;123(5):369-75.	
 
 **Okudaira 2007** Okudaira T, Kotegawa T, Imai H, Tsutsumi K, Nakano S, Ohashi K. Effect of the treatment period with erythromycin on cytochrome P450 3A activity in humans. J Clin Pharmacol. 2007 Jul;47(7):871-6.
 
@@ -544,6 +552,8 @@ In particular, it applies quantitative metabolism by CYP3A4. Thus, the model is 
 
 **Phimmasone 2001** Phimmasone S, Kharasch ED. A pilot evaluation of alfentanil-induced miosis as a noninvasive probe for hepatic cytochrome P450 3A4 (CYP3A4) activity in humans. Clin Pharmacol Ther. 2001 Dec;70(6):505-17.
 
+**PK-Sim Ontogeny Database Version 7.3** (https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/38cf71b384cfc25cfa0ce4d2f3addfd32757e13b/PK-Sim%20Ontogeny%20Database%20Version%207.3.pdf)	
+
 **Prueksaritanont 2017** Prueksaritanont T,, Tatosian DA, Chu X, Railkar R, Evers R, Chavez-Eng C, Lutz R, Zeng W, Yabut J, Chan GH, Cai X, Latham AH, Hehman J, Stypinski D, Brejda J, Zhou C, Thornton B, Bateman KP, Fraser I,, Stoch SA. Validation of a microdose probe drug cocktail for clinical drug interaction assessments for drug transporters and CYP3A. Clin Pharmacol Ther. 2017 Apr;101(4):519-530.
 
 **Quinney 2008** Quinney SK, Haehner BD, Rhoades MB, Lin Z, Gorski JC, Hall SD. Interaction between midazolam and clarithromycin in the elderly. Br J Clin Pharmacol. 2008 Jan;65(1):98-109.
@@ -553,6 +563,8 @@ In particular, it applies quantitative metabolism by CYP3A4. Thus, the model is 
 **Rodrigues 1999** Rodrigues AD. Integrated cytochrome P450 reaction phenotyping: attempting to bridge the gap between cDNA-expressed cytochromes P450 and native human liver microsomes. Biochem Pharmacol. 1999 Mar 1;57(5):465-80.
 
 **Saari 2006** Saari TI, Laine K, Leino K, Valtonen M, Neuvonen PJ, Olkkola KT. Effect of voriconazole on the pharmacokinetics and pharmacodynamics of intravenous and oral midazolam. Clin Pharmacol Ther. 2006 Apr;79(4):362-70.
+
+**Schlender 2016** Schlender JF, Meyer M, Thelen K, Krauss M, Willmann S, Eissing T, Jaehde U. Development of a Whole-Body Physiologically Based Pharmacokinetic Approach to Assess the Pharmacokinetics of Drugs in Elderly Individuals. Clin Pharmacokinet. 2016 Dec;55(12):1573-1589. 
 
 **Schwagmeier 1998** Schwagmeier R, Alincic S, Striebel HW. Midazolam pharmacokinetics following intravenous and buccal administration. Br J Clin Pharmacol. 1998 Sep;46(3):203-6.
 
@@ -577,6 +589,8 @@ In particular, it applies quantitative metabolism by CYP3A4. Thus, the model is 
 **Wang 2019** Wang YH, Chen D, Hartmann G, Cho CR, Menzel K. PBPK Modeling Strategy for Predicting Complex Drug Interactions of Letermovir as a Perpetrator in Support of Product Labeling. Clin Pharmacol Ther. 2019 Feb;105(2):515-523.
 
 **Yeates 1996** Yeates RA, Laufen H, Zimmermann T. Interaction between midazolam and clarithromycin: comparison with azithromycin. Int J Clin Pharmacol Ther. 1996 Sep;34(9):400-5.
+
+**Yu 2004** Yu KS, Cho JY, Jang IJ, Hong KS, Chung JY, Kim JR, Lim HS, Oh DS, Yi SY, Liu KH, Shin JG, Shin SG. Effect of the CYP3A5 genotype on the pharmacokinetics of intravenous midazolam during inhibited and induced metabolic states. Clin Pharmacol Ther. 2004 Aug;76(2):104-12.
 
 **Zimmermann 1996** Zimmermann T, Yeates RA, Laufen H, Scharpf F, Leitold M, Wildfeuer A. Influence of the antibiotics erythromycin and azithromycin on the pharmacokinetics and pharmacodynamics of midazolam. Arzneimittelforschung. 1996 Feb;46(2):213-7.
 

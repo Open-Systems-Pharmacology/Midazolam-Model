@@ -1071,17 +1071,12 @@
                 "SectionId": 331,
                 "Project": "Midazolam",
                 "Simulation": "iv 0.001 mg (5 min)"
-            },
-            {
-                "SectionId": 331,
-                "Project": "Midazolam",
-                "Simulation": "iv 1 mg (2 min)"
-            },
+            }, 
             {
                 "SectionId": 331,
                 "Project": "Midazolam",
                 "Simulation": "iv 1 mg (5 min)"
-            },
+            },           
             {
                 "SectionId": 331,
                 "Project": "Midazolam",
@@ -1126,6 +1121,11 @@
                 "SectionId": 332,
                 "Project": "Midazolam",
                 "Simulation": "iv 1 mg (bolus)"
+            },
+            {
+                "SectionId": 332,
+                "Project": "Midazolam",
+                "Simulation": "iv 1 mg (2 min)"
             },
             {
                 "SectionId": 332,
