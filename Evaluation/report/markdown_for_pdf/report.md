@@ -189,7 +189,7 @@ The following dosing senarios were simulated and compared to respective data for
 ## 2.3 Model Parameters and Assumptions
 ### 2.3.1 Absorption
 
-The model parameter `Specific intestinal permeability` was optimized to best match clinical data (see  [Section 2.3.4](#2.3.4-Automated-Parameter-Identification)). The default solubility was assumed to be the measured value in the FaSSIF medium (see [Section 2.2.1](#2.2.1-In-vitro-and-physico-chemical-data))
+The model parameter `Specific intestinal permeability` was optimized to best match clinical data (see  [Section 2.3.4](#2.3.4-Automated-Parameter-Identification)). The default solubility was assumed to be the measured value in the FaSSIF medium (see [Section 2.2.1](#221-In-vitro-and-physico-chemical-data))
 
 The dissolution of tablets were implemented via an empirical Weibull dissolution tablet. However, dissolution does not seem to relevant in terms of *rate-limiting*; see results of optimization in [Section 2.3.4](#2.3.4-Automated-Parameter-Identification).
 

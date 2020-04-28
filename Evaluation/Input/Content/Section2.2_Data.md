@@ -7,9 +7,9 @@ A literature search was performed to collect available information on physical c
 | MW                                    | g/mol                      | 325.78           | [DrugBank DB00683](#5-References) | Molecular weight                                             |
 | pK<sub>a,base</sub>                   |                            | 6.2              | [Wang 2019](#5-References)        | Basic dissociation constant                                  |
 | pK<sub>a,acid</sub>                   |                            | 10.95            | [Wang 2019](#5-References)        | Acid dissociation constant                                   |
-| Solubility (pH)                       | mg/mL                      | 0.13<br />(5)    | [Heikkinen 2012](#5 References)   | Aqueous Solubility                                           |
-|                                       |                            | 0.049<br />(6.5) | [Heikkinen 2012](#5 References)   | FaSSIF solubility                                            |
-|                                       |                            | 0.09<br />(5)    | [Heikkinen 2012](#5 References)   | FeSSIF solubility                                            |
+| Solubility (pH)                       | mg/mL                      | 0.13<br />(5)    | [Heikkinen 2012](#5-References)   | Aqueous Solubility                                           |
+|                                       |                            | 0.049<br />(6.5) | [Heikkinen 2012](#5-References)   | FaSSIF solubility                                            |
+|                                       |                            | 0.09<br />(5)    | [Heikkinen 2012](#5-References)   | FeSSIF solubility                                            |
 | logP                                  |                            | 3.53             | [Wang 2019](#5-References)        | Partition coefficient between octanol and water              |
 |                                       |                            | 3.0              | [Dagenais 2009](#5-References)    | Partition coefficient between octanol and water              |
 |                                       |                            | 3.37             | [Bolger 2006](#5-References)      | Partition coefficient between octanol and water              |
