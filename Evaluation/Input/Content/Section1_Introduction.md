@@ -10,5 +10,5 @@ Model features include:
 - a decrease in the permeability between the intracellular and interstitial space  (parameters "P (intracellular->interstitial)" and "P (interstitial->intracellular)") in intestinal mucosa to optimize quantitatively the extent of gut wall metabolism
 - and binding to a hypothetical binding partner in the brain to optimize a late redistribution phase in midazolam plasma concentrations.
 
-The presented midazolam PBPK model as well as the respective evaluation plan and PBPK report are provided open-source  (https://github.com/Open-Systems-Pharmacology/Midazolam-model).
+
 
