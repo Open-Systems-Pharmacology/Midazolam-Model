@@ -1071,12 +1071,12 @@
                 "SectionId": 331,
                 "Project": "Midazolam",
                 "Simulation": "iv 0.001 mg (5 min)"
-            }, 
+            },
             {
                 "SectionId": 331,
                 "Project": "Midazolam",
                 "Simulation": "iv 1 mg (5 min)"
-            },           
+            },
             {
                 "SectionId": 331,
                 "Project": "Midazolam",
@@ -1120,22 +1120,22 @@
             {
                 "SectionId": 332,
                 "Project": "Midazolam",
-                "Simulation": "iv 1 mg (bolus)"
-            },
-            {
-                "SectionId": 332,
-                "Project": "Midazolam",
                 "Simulation": "iv 1 mg (2 min)"
             },
             {
                 "SectionId": 332,
                 "Project": "Midazolam",
-                "Simulation": "iv 2 mg (bolus)"
+                "Simulation": "iv 1 mg (bolus)"
             },
             {
                 "SectionId": 332,
                 "Project": "Midazolam",
                 "Simulation": "iv 2 mg (2 min)"
+            },
+            {
+                "SectionId": 332,
+                "Project": "Midazolam",
+                "Simulation": "iv 2 mg (bolus)"
             },
             {
                 "SectionId": 332,
@@ -1150,12 +1150,32 @@
             {
                 "SectionId": 332,
                 "Project": "Midazolam",
+                "Simulation": "Mikus 2017"
+            },
+            {
+                "SectionId": 332,
+                "Project": "Midazolam",
+                "Simulation": "po 0.01 mg (solution)"
+            },
+            {
+                "SectionId": 332,
+                "Project": "Midazolam",
                 "Simulation": "po 0.075 mg (solution)"
             },
             {
                 "SectionId": 332,
                 "Project": "Midazolam",
                 "Simulation": "po 0.075 mg/kg (syrup)"
+            },
+            {
+                "SectionId": 332,
+                "Project": "Midazolam",
+                "Simulation": "po 1 mg (solution)"
+            },
+            {
+                "SectionId": 332,
+                "Project": "Midazolam",
+                "Simulation": "po 10 mg (solution)"
             },
             {
                 "SectionId": 332,
@@ -1170,14 +1190,28 @@
             {
                 "SectionId": 332,
                 "Project": "Midazolam",
+                "Simulation": "po 15 mg (tablet) - with 1h after high-fat breakfast"
+            },
+            {
+                "SectionId": 332,
+                "Project": "Midazolam",
                 "Simulation": "po 2 mg (solution)"
+            },
+            {
+                "SectionId": 332,
+                "Project": "Midazolam",
+                "Simulation": "po 2.5 mg (solution)"
             },
             {
                 "SectionId": 332,
                 "Project": "Midazolam",
                 "Simulation": "po 20 mg (tablet)"
             },
-            
+            {
+                "SectionId": 332,
+                "Project": "Midazolam",
+                "Simulation": "po 3.5 mg (solution)"
+            },
             {
                 "SectionId": 332,
                 "Project": "Midazolam",
@@ -1207,37 +1241,6 @@
                 "SectionId": 332,
                 "Project": "Midazolam",
                 "Simulation": "po 8 mg (solution)"
-            },
-            {
-                "SectionId": 332,
-                "Project": "Midazolam",
-                "Simulation": "po 10 mg (solution)"
-            },
-            {
-                "SectionId": 332,
-                "Project": "Midazolam",
-                "Simulation": "po 2.5 mg (solution)"
-            }
-            ,
-            {
-                "SectionId": 332,
-                "Project": "Midazolam",
-                "Simulation": "po 0.01 mg (solution)"
-            },
-            {
-                "SectionId": 332,
-                "Project": "Midazolam",
-                "Simulation": "po 3.5 mg (solution)"
-            },
-            {
-                "SectionId": 332,
-                "Project": "Midazolam",
-                "Simulation": "po 15 mg (tablet) - with 1h after high-fat breakfast"
-            },
-            {
-                "SectionId": 332,
-                "Project": "Midazolam",
-                "Simulation": "Mikus 2017"
             }
         ],
         "GOFMergedPlots": [
@@ -1462,7 +1465,6 @@
                                 "ObservedData": "Hohmann 2015 - iv 1 mg - Midazolam - IV - 1 mg - Plasma - agg. (n=16)",
                                 "Color": "#b2182b"
                             },
-                            
                             {
                                 "Project": "Midazolam",
                                 "Simulation": "iv 1 mg (bolus)",
@@ -1643,7 +1645,14 @@
                                 "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "van Dyk 2018 - Midazolam in Caucasian at baseline - Midazolam - PO - 1 mg - Plasma - agg. (n=19)",
                                 "Color": "#b2182b"
-                            },     
+                            },
+                            {
+                                "Project": "Midazolam",
+                                "Simulation": "po 1 mg (solution)",
+                                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)",
+                                "Color": "#b2182b"
+                            },
                             {
                                 "Project": "Midazolam",
                                 "Simulation": "po 7.5 mg (solution)",
@@ -1707,7 +1716,6 @@
                                 "ObservedData": "Gurley 2006 - Control pre-Rifampicin (Perpetrator Placebo) - Midazolam - PO - 8 mg - Plasma - agg. (n=19)",
                                 "Color": "#b2182b"
                             },
-                            
                             {
                                 "Project": "Midazolam",
                                 "Simulation": "po 10 mg (solution)",
@@ -1867,7 +1875,7 @@
                                 "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Heizmann 1983 - po 20 mg - Indiv. A.St. - Midazolam - PO - 20 mg - Plasma - indiv.",
                                 "Color": "#b2182b"
-                            },                                                 
+                            },
                             {
                                 "Project": "Midazolam",
                                 "Simulation": "po 40 mg (tablet)",
@@ -1895,7 +1903,7 @@
                                 "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Bornemann 1986 - 1 h after a meal - Midazolam - PO - 15 mg - Plasma - agg. (n=18)",
                                 "Color": "#b2182b"
-                            }                          
+                            }
                         ]
                     },
                     {
@@ -1915,7 +1923,7 @@
                                 "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Mikus 2017 - Midazolam control PO - Midazolam - PO - 4 mg - Plasma - agg. (n=12)",
                                 "Color": "#b2182b"
-                            }                                                    
+                            }
                         ]
                     }
                 ]

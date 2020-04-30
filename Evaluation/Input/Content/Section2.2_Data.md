@@ -63,57 +63,58 @@ The following dosing senarios were simulated and compared to respective data for
 
 | Scenario                                                     | Data reference                       |
 | ------------------------------------------------------------ | ------------------------------------ |
-| iv 0.05 mg/kg (2 min)                                        | [Olkkola 1993](5-References)         |
-| iv 0.05 mg/kg (30 min)                                       | [Gorski 1998](5-References)          |
-|                                                              | [Gorski 2003](5-References)          |
-|                                                              | [Quinney 2008](5-References)         |
-| iv 0.05 mg/kg (bolus)                                        | [Szalat 2007](5-References)          |
-| iv 0.075 mg/kg (1 min)                                       | [Allonen 1981](5-References)         |
-|                                                              | [Swart 2002](5-References)           |
-| iv 0.15 mg/kg (bolus)                                        | [Heizmann 1983](5-References)        |
-| iv 1 mg (bolus)                                              | [Kharasch 1997](5-References)        |
-|                                                              | [Kharasch 2004](5-References)        |
-|                                                              | [Kharasch 2011](5-References)        |
-|                                                              | [Phimmasone 2001](5-References)      |
-|                                                              | [Shin 2013](5-References)            |
-|                                                              | [Shin 2016](5-References)            |
-| iv 1 mg (2 min)<br />Corean CYP3A5\*3/\*3 only, CYP3A4 reference concentration adjusted | [Yu 2004](5-References)              |
-| iv 2 mg (bolus)                                              | [Darwish 2008](5-References)         |
-| iv 5 mg (30 sec)                                             | [Schwagmeier 1998](5-References)     |
-| iv 5 mg (bolus)                                              | [Smith 1981](5-References)           |
-| po 0.01 mg (solution)                                        | [Prueksaritanont 2017](5-References) |
-| po 0.075 mg (solution)                                       | [Eap 2004](5-References)             |
-| po 0.075 mg/kg (syrup)                                       | [Chung 2006](5-References)           |
-| po 1 mg (solution)                                           | [van Dyk 2018](5-References)         |
-| po 10 mg (solution)                                          | [Lam 2003](5-References)             |
-|                                                              | [Smith 1981](5-References)           |
-| po 10 mg (tablet)                                            | [Heizmann 1983](5-References)        |
-|                                                              | [Smith 1981](5-References)           |
-| po 15 mg (tablet)                                            | [Allonen 1981](5-References)         |
-|                                                              | [Backman 1994](5-References)         |
-|                                                              | [Backman 1996](5-References)         |
-|                                                              | [Backman 1998](5-References)         |
-|                                                              | [Bornemann 1986](5-References)       |
-|                                                              | [Olkkola 1993](5-References)         |
-|                                                              | [Yeates 1996](5-References)          |
-|                                                              | [Zimmermann 1996](5-References)      |
-| po 15 mg (tablet) - with 1h after  high-fat breakfast        | [Bornemann 1986](5-References)       |
-| po 2 mg (solution)                                           | [Templeton 2010](5-References)       |
-| po 2.5 mg (solution)                                         | [Okudaira 2007](5-References)        |
-| po 20 mg (tablet)                                            | [Heizmann 1983](5-References)        |
-| po 3 mg (solution)                                           | [Katzenmaier 2010](5-References)     |
-|                                                              | [Kharasch 2004](5-References)        |
-|                                                              | [Kharasch 2011](5-References)        |
-|                                                              | [Markert 2013](5-References)         |
-| po 3.5 mg (solution)                                         | [Quinney 2008](5-References)         |
-| po 4 mg (solution)                                           | [Gorski 1998](5-References)          |
-|                                                              | [Gorski 2003](5-References)          |
-| po 40 mg (tablet)                                            | [Heizmann 1983](5-References)        |
-| po 5 mg (solution)                                           | [Darwish 2008](5-References)         |
-|                                                              | [Okudaira 2007](5-References)        |
-|                                                              | [Tham 2006](5-References)            |
-| po 6 mg (solution)                                           | [Greenblat 2003](5-References)       |
-| po 7.5 mg (solution)                                         | [Eap 2004](5-References)             |
-| po 8 mg (solution)                                           | [Gurley 2006](5-References)          |
-|                                                              | [Gurley 2008a](5-References)         |
-| Mikus 2017<br />(4 mg po solution,  followed by 2 mg iv administration 6 hours later) | [Mikus 2017](5-References)           |
+| iv 0.05 mg/kg (2 min)                                        | [Olkkola 1993](#5-References)         |
+| iv 0.05 mg/kg (30 min)                                       | [Gorski 1998](#5-References)          |
+|                                                              | [Gorski 2003](#5-References)          |
+|                                                              | [Quinney 2008](#5-References)         |
+| iv 0.05 mg/kg (bolus)                                        | [Szalat 2007](#5-References)          |
+| iv 0.075 mg/kg (1 min)                                       | [Allonen 1981](#5-References)         |
+|                                                              | [Swart 2002](#5-References)           |
+| iv 0.15 mg/kg (bolus)                                        | [Heizmann 1983](#5-References)        |
+| iv 1 mg (bolus)                                              | [Kharasch 1997](#5-References)        |
+|                                                              | [Kharasch 2004](#5-References)        |
+|                                                              | [Kharasch 2011](#5-References)        |
+|                                                              | [Phimmasone 2001](#5-References)      |
+|                                                              | [Shin 2013](#5-References)            |
+|                                                              | [Shin 2016](#5-References)            |
+| iv 1 mg (2 min)<br />Corean CYP3A5\*3/\*3 only, CYP3A4 reference concentration adjusted | [Yu 2004](#5-References)              |
+| iv 2 mg (bolus)                                              | [Darwish 2008](#5-References)         |
+| iv 5 mg (30 sec)                                             | [Schwagmeier 1998](#5-References)     |
+| iv 5 mg (bolus)                                              | [Smith 1981](#5-References)           |
+| po 0.01 mg (solution)                                        | [Prueksaritanont 2017](#5-References) |
+| po 0.075 mg (solution)                                       | [Eap 2004](#5-References)             |
+| po 0.075 mg/kg (syrup)                                       | [Chung 2006](#5-References)           |
+| po 1 mg (solution)                                           | [van Dyk 2018](#5-References)         |
+|                                                              | [Wiesinger 2020](#5-References)      |
+| po 10 mg (solution)                                          | [Lam 2003](#5-References)             |
+|                                                              | [Smith 1981](#5-References)           |
+| po 10 mg (tablet)                                            | [Heizmann 1983](#5-References)        |
+|                                                              | [Smith 1981](#5-References)           |
+| po 15 mg (tablet)                                            | [Allonen 1981](#5-References)         |
+|                                                              | [Backman 1994](#5-References)         |
+|                                                              | [Backman 1996](#5-References)         |
+|                                                              | [Backman 1998](#5-References)         |
+|                                                              | [Bornemann 1986](#5-References)       |
+|                                                              | [Olkkola 1993](#5-References)         |
+|                                                              | [Yeates 1996](#5-References)          |
+|                                                              | [Zimmermann 1996](#5-References)      |
+| po 15 mg (tablet) - with 1h after  high-fat breakfast        | [Bornemann 1986](#5-References)       |
+| po 2 mg (solution)                                           | [Templeton 2010](#5-References)       |
+| po 2.5 mg (solution)                                         | [Okudaira 2007](#5-References)        |
+| po 20 mg (tablet)                                            | [Heizmann 1983](#5-References)        |
+| po 3 mg (solution)                                           | [Katzenmaier 2010](#5-References)     |
+|                                                              | [Kharasch 2004](#5-References)        |
+|                                                              | [Kharasch 2011](#5-References)        |
+|                                                              | [Markert 2013](#5-References)         |
+| po 3.5 mg (solution)                                         | [Quinney 2008](#5-References)         |
+| po 4 mg (solution)                                           | [Gorski 1998](#5-References)          |
+|                                                              | [Gorski 2003](#5-References)          |
+| po 40 mg (tablet)                                            | [Heizmann 1983](#5-References)        |
+| po 5 mg (solution)                                           | [Darwish 2008](#5-References)         |
+|                                                              | [Okudaira 2007](#5-References)        |
+|                                                              | [Tham 2006](#5-References)            |
+| po 6 mg (solution)                                           | [Greenblat 2003](#5-References)       |
+| po 7.5 mg (solution)                                         | [Eap 2004](#5-References)             |
+| po 8 mg (solution)                                           | [Gurley 2006](#5-References)          |
+|                                                              | [Gurley 2008a](#5-References)         |
+| Mikus 2017<br />(4 mg po solution,  followed by 2 mg iv administration 6 hours later) | [Mikus 2017](#5-References)           |

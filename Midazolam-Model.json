@@ -8530,7 +8530,8 @@
       "Name": "po 1 mg (solution)",
       "Model": "4Comp",
       "ObservedData": [
-        "van Dyk 2018 - Midazolam in Caucasian at baseline - Midazolam - PO - 1 mg - Plasma - agg. (n=19)"
+        "van Dyk 2018 - Midazolam in Caucasian at baseline - Midazolam - PO - 1 mg - Plasma - agg. (n=19)",
+        "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -8892,6 +8893,17 @@
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)-Midazolam-Peripheral Venous Blood-Plasma-Median",
+              "X": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|Time",
+              "Y": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Median",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -18251,11 +18263,11 @@
             },
             {
               "Name": "maxiter",
-              "Value": 200
+              "Value": 200.0
             },
             {
               "Name": "maxfev",
-              "Value": 0
+              "Value": 0.0
             },
             {
               "Name": "epsfcn",
@@ -33019,17 +33031,17 @@
             "LLOQ": 2E-10
           },
           "Values": [
-            0.00109780394,
-            0.00502994,
-            0.007185629,
-            0.006886228,
-            0.003433134,
-            0.002335329,
-            0.001796407,
-            0.00139720587
+            1.097804,
+            5.02994,
+            7.185629,
+            6.886228,
+            3.433134,
+            2.335329,
+            1.796407,
+            1.397206
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -35233,6 +35245,147 @@
         "Dimension": "Time",
         "Unit": "h"
       }
+    },
+    {
+      "Name": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 203.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Wiesinger 2020"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/32275771"
+        },
+        {
+          "Name": "Source",
+          "Value": "https://github.com/Open-Systems-Pharmacology/Hormonal-Contraceptive-Agents-Datasets"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Control phase (no RIF)"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 65.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "1 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "solution (0.5 mL)"
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Median"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 325.77
+          },
+          "Values": [
+            4.58,
+            4.0,
+            2.77,
+            1.9799999,
+            1.4,
+            1.13,
+            0.933,
+            0.770999968,
+            0.51,
+            0.395,
+            0.281,
+            0.165,
+            0.119,
+            0.0393000022
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          2.5,
+          3.0,
+          3.5,
+          4.0,
+          5.0,
+          6.0,
+          8.0,
+          12.0,
+          15.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
     }
   ],
   "ObservedDataClassifications": [
@@ -35590,6 +35743,12 @@
         "Yu 2004 - Control CYP3A5*1/*1 - Midazolam - IV - 1 mg - Plasma - agg. (n=6)",
         "Yu 2004 - Control CYP3A5*1/*3 - Midazolam - IV - 1 mg - Plasma - agg. (n=6)",
         "Yu 2004 - Control CYP3A5*3/*3 - Midazolam - IV - 1 mg - Plasma - agg. (n=7)"
+      ]
+    },
+    {
+      "Name": "Wiesinger 2020",
+      "Classifiables": [
+        "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)"
       ]
     }
   ],

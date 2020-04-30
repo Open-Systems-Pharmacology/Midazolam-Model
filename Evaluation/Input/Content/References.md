@@ -132,6 +132,8 @@
 
 **Wang 2019** Wang YH, Chen D, Hartmann G, Cho CR, Menzel K. PBPK Modeling Strategy for Predicting Complex Drug Interactions of Letermovir as a Perpetrator in Support of Product Labeling. Clin Pharmacol Ther. 2019 Feb;105(2):515-523.
 
+**Wiesinger 2020** Wiesinger H, Klein S, Rottmann A, Nowotn B, Riecke K, Gashaw I, Brudny-Klöppel M, Fricke R, Höchel J, Friedrich C. The effects of weak and strong CYP3A induction by rifampicin on the pharmacokinetics of five progestins and ethinylestradiol compared to midazolam. Clin Pharmacol Ther. 2020 Apr 10.
+
 **Yeates 1996** Yeates RA, Laufen H, Zimmermann T. Interaction between midazolam and clarithromycin: comparison with azithromycin. Int J Clin Pharmacol Ther. 1996 Sep;34(9):400-5.
 
 **Yu 2004** Yu KS, Cho JY, Jang IJ, Hong KS, Chung JY, Kim JR, Lim HS, Oh DS, Yi SY, Liu KH, Shin JG, Shin SG. Effect of the CYP3A5 genotype on the pharmacokinetics of intravenous midazolam during inhibited and induced metabolic states. Clin Pharmacol Ther. 2004 Aug;76(2):104-12.
