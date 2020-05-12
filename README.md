@@ -1,7 +1,15 @@
 # Midazolam-Model
 Whole-body PBPK model of midazolam.
 
-**The latest release of this model including a report on model building, model features and model evaluation can be found [here](../../releases/latest).**
+This repository contains:
+- a PK-Sim snapshot file of the current PBPK model
+- static content (e.g. text blocks) as inputs for an evaluation plan
+- an evaluation plan defining the evaluation of the model for the creation of an evaluation report using the snapshot and static text blocks as input
+
+**The latest release of the snapshot of the model, the evaluation plan and the static content can be found [here](../../releases/latest).**
+
+**The latest release of the PK-Sim project model file and the respective evaluation report can be found [here](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/releases).**
+
 
 <p align="center">
   <img src="Midazolam.png">
