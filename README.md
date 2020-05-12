@@ -1,6 +1,10 @@
 # Midazolam-Model
 Whole-body PBPK model of midazolam.
 
+<p align="center">
+  <img src="Midazolam.png">
+</p> 
+
 This repository contains:
 - a PK-Sim snapshot file of the current PBPK model
 - static content (e.g. text blocks) as inputs for an evaluation plan
@@ -9,11 +13,6 @@ This repository contains:
 **The latest release of the snapshot of the model, the evaluation plan and the static content can be found [here](../../releases/latest).**
 
 **The latest release of the PK-Sim project model file and the respective evaluation report can be found [here](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/releases).**
-
-
-<p align="center">
-  <img src="Midazolam.png">
-</p> 
 
 This midazolam model is intended to be used as victim drug in CYP3A4-mediated drug-drug interactions (DDI).
 
