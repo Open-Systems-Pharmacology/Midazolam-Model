@@ -4,8 +4,8 @@ The herein presented model represents an update of the midazolam model published
 
 Model features include:
 
-- CYP3A4-mediated metabolism
-- UGT1A4-mediated metabolism
+- metabolism by CYP3A4
+- (direct) metabolism by UGT1A4
 - excretion into urine via glomerular filtration
 - a decrease in the permeability between the intracellular and interstitial space (model parameters `P (intracellular->interstitial)` and `P (interstitial->intracellular)`) in intestinal mucosa to optimize quantitatively the extent of gut wall metabolism
 - and binding to a hypothetical binding partner in the brain to optimize a late redistribution phase in midazolam plasma concentrations.
