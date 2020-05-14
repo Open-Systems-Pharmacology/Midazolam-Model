@@ -78,6 +78,8 @@
 
 **Markert 2013** Markert C, Hellwig R, Burhenne J, Hoffmann MM, Weiss J, Mikus G, Haefeli WE. Interaction of ambrisentan with clarithromycin and its modulation by polymorphic SLCO1B1. Eur J Clin Pharmacol. 2013 Oct;69(10):1785-93.
 
+**Meyer 2012** Meyer M, Schneckener S, Ludewig B, Kuepfer L, Lippert J. Using expression data for quantification of active processes in physiologically based pharmacokinetic modeling. Drug Metab Dispos. 2012 May;40(5):892-901.
+
 **Mikus 2017** Mikus G, Heinrich T, Bödigheimer J, Röder C, Matthee AK, Weiss J, Burhenne J, Haefeli WE. Semisimultaneous Midazolam Administration to Evaluate the Time Course of CYP3A Activation by a Single Oral Dose of Efavirenz. J Clin Pharmacol. 2017 Jul;57(7):899-905.
 
 **Nishimura 2013** Nishimura M, Yaguti H, Yoshitsugu H, Naito S, Satoh T. Tissue distribution of mRNA expression of human cytochrome P450 isoforms assessed by high-sensitivity real-time reverse transcription PCR. Yakugaku Zasshi. 2003 May;123(5):369-75.	
@@ -107,8 +109,6 @@
 **Rodrigues 1999** Rodrigues AD. Integrated cytochrome P450 reaction phenotyping: attempting to bridge the gap between cDNA-expressed cytochromes P450 and native human liver microsomes. Biochem Pharmacol. 1999 Mar 1;57(5):465-80.
 
 **Saari 2006** Saari TI, Laine K, Leino K, Valtonen M, Neuvonen PJ, Olkkola KT. Effect of voriconazole on the pharmacokinetics and pharmacodynamics of intravenous and oral midazolam. Clin Pharmacol Ther. 2006 Apr;79(4):362-70.
-
-**Schlender 2016** Schlender JF, Meyer M, Thelen K, Krauss M, Willmann S, Eissing T, Jaehde U. Development of a Whole-Body Physiologically Based Pharmacokinetic Approach to Assess the Pharmacokinetics of Drugs in Elderly Individuals. Clin Pharmacokinet. 2016 Dec;55(12):1573-1589. 
 
 **Schwagmeier 1998** Schwagmeier R, Alincic S, Striebel HW. Midazolam pharmacokinetics following intravenous and buccal administration. Br J Clin Pharmacol. 1998 Sep;46(3):203-6.
 
