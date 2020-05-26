@@ -11,7 +11,7 @@ if exist(fullfile(cd,'report'),'dir')>0 rmdir(fullfile(cd,'report'),'s'); end
 
 % --------------------------------------------------------------
 % replace qualificationRunnerFolder and markdownJoinerFolder with your paths
-qualificationRunnerFolder = 'C:\Software\QualificationRunner 9.0.62';
+qualificationRunnerFolder = 'C:\Software\QualificationRunner';
 markdownJoinerFolder = 'C:\Software\markdown-joiner';
 PKSimPortableFolder = 'C:\Software\PKSimPortable';
 

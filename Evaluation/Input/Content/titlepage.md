@@ -4,11 +4,16 @@
 
 
 
-| Version                                         | TODO                                                         |
+| Version                                         | x.x-OSPy.y                                                   |
 | ----------------------------------------------- | ------------------------------------------------------------ |
-| Model file and Evaluation Report                | TODO                                                         |
-| based on *Model Snapshot* and *Evaluation Plan* | 1.0<br />(https://github.com/Open-Systems-Pharmacology/Midazolam-Model/releases/tag/v1.0) |
-| OSP Version                                     | 9.0                                                          |
-| Qualification Framework Version                 | 2.1                                                          |
-| Author                                          | Sebastian Frechen ([sfrechen](https://github.com/sfrechen))  |
+| based on *Model Snapshot* and *Evaluation Plan* | https://github.com/Open-Systems-Pharmacology/Midazolam-Model/releases/tag/vx.x |
+| OSP Version                                     | y.y                                                          |
+| Qualification Framework Version                 | z.z                                                          |
 
+
+
+
+
+This evaluation report and the corresponding PK-Sim project file are filed at:
+
+https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/
