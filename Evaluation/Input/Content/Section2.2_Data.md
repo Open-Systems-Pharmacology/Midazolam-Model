@@ -100,7 +100,6 @@ The following dosing scenarios were simulated and compared to respective data fo
 |                                                              | [Zimmermann 1996](#5-References)      |
 | po 15 mg (tablet) - with 1h after high-fat breakfast        | [Bornemann 1986](#5-References)       |
 | po 2 mg (solution)                                           | [Templeton 2010](#5-References)       |
-| po 2.5 mg (solution)                                         | [Okudaira 2007](#5-References)        |
 | po 20 mg (tablet)                                            | [Heizmann 1983](#5-References)        |
 | po 3 mg (solution)                                           | [Katzenmaier 2010](#5-References)     |
 |                                                              | [Kharasch 2004](#5-References)        |

@@ -1200,11 +1200,6 @@
             {
                 "SectionId": 332,
                 "Project": "Midazolam",
-                "Simulation": "po 2.5 mg (solution)"
-            },
-            {
-                "SectionId": 332,
-                "Project": "Midazolam",
                 "Simulation": "po 20 mg (tablet)"
             },
             {
