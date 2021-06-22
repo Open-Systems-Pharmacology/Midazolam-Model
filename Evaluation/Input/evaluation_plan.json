@@ -1731,7 +1731,28 @@
                                 "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Lam 2003 - Midazolam before Ketoconazole - Midazolam - PO - 10 mg - Plasma - agg. (n=10)",
                                 "Color": "#b2182b"
-                            }
+                            },
+                            {
+                                "Project": "Midazolam",
+                                "Simulation": "po 1 mg (solution)",
+                                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Chattopadhyay 2018 - Control (without Rifampicin) - Midazolam - PO - 1 mg - Plasma - agg. (n=11)",
+                                "Color": "#b2182b"
+                            },
+                            {
+                                "Project": "Midazolam",
+                                "Simulation": "po 2 mg (solution)",
+                                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Lutz 2018 - Cohort 1, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)",
+                                "Color": "#b2182b"
+                            },
+                            {
+                                "Project": "Midazolam",
+                                "Simulation": "po 2 mg (solution)",
+                                "Output": "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Lutz 2018 - Cohort 2, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)",
+                                "Color": "#b2182b"
+                            },
                         ]
                     },
                     {

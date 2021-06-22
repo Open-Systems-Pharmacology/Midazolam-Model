@@ -86,6 +86,7 @@ The following dosing scenarios were simulated and compared to respective data fo
 | po 0.075 mg/kg (syrup)                                       | [Chung 2006](#5-References)           |
 | po 1 mg (solution)                                           | [van Dyk 2018](#5-References)         |
 |                                                              | [Wiesinger 2020](#5-References)      |
+| | [Chattopadhyay 2018](#5-References) |
 | po 10 mg (solution)                                          | [Lam 2003](#5-References)             |
 |                                                              | [Smith 1981](#5-References)           |
 | po 10 mg (tablet)                                            | [Heizmann 1983](#5-References)        |
@@ -100,6 +101,7 @@ The following dosing scenarios were simulated and compared to respective data fo
 |                                                              | [Zimmermann 1996](#5-References)      |
 | po 15 mg (tablet) - with 1h after high-fat breakfast        | [Bornemann 1986](#5-References)       |
 | po 2 mg (solution)                                           | [Templeton 2010](#5-References)       |
+|  | [Lutz 2018](#5-References) |
 | po 20 mg (tablet)                                            | [Heizmann 1983](#5-References)        |
 | po 3 mg (solution)                                           | [Katzenmaier 2010](#5-References)     |
 |                                                              | [Kharasch 2004](#5-References)        |

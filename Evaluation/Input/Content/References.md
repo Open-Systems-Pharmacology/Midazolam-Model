@@ -18,6 +18,9 @@
 
 **Buhr 1997** Buhr A, Baur R, Sigel E. Subtle changes in residue 77 of the gamma subunit of alpha1beta2gamma2 GABAA receptors drastically alter the affinity for ligands of the benzodiazepine binding site. J Biol Chem. 1997 May 2;272(18):11799-804.
 
+** Chattopadhyay 2018** Chattopadhyay N, Kanacher K, Casjens M, Frechen S, Ligges S, Zimmermann T, Rottmann A, Ploeger B, Höchel J, Schultze-Mosgau M-H. CYP3A4-mediated effects of rifampicin on the pharmacokinetics of vilaprisan and its UGT1A1-mediated effects on bilirubin glucuronidation in humans. Br J Clin Pharmacol
+. 2018 Dec;84(12):2857-2866.
+
 **Chung 2006** Chung E, Nafziger AN, Kazierad DJ, Bertino JS Jr. Comparison of midazolam and simvastatin as cytochrome P450 3A probes. Clin Pharmacol Ther. 2006 Apr;79(4):350-61.
 
 **Dagenais 2009** Dagenais C, Avdeef A, Tsinman O, Dudley A, Beliveau R. P-glycoprotein deficient mouse in situ blood-brain barrier permeability and its prediction using an in combo PAMPA model. Eur J Pharm Sci. 2009 Sep 10;38(2):121-37.
@@ -73,6 +76,9 @@
 **Link 2008** Link B, Haschke M, Grignaschi N, Bodmer M, Aschmann YZ, Wenk M, Krähenbühl S. Pharmacokinetics of intravenous and oral midazolam in plasma and saliva in humans: usefulness of saliva as matrix for CYP3A phenotyping. Br J Clin Pharmacol. 2008 Oct;66(4):473-84.
 
 **Lown 1995** Lown KS, Thummel KE, Benedict PE, Shen DD, Turgeon DK, Berent S, Watkins PB. The erythromycin breath test predicts the clearance of midazolam. Clin Pharmacol Ther. 1995 Jan;57(1):16-24.
+
+**Lutz 2018** Lutz JD, Kirby BJ, Wang L, Song Q, Ling J, Massetto B, Worth A, Kearney BP, Mathias A. Cytochrome P450 3A Induction Predicts P-glycoprotein Induction; Part 1: Establishing Induction Relationships Using Ascending Dose Rifampin. Clin Pharmacol Ther
+. 2018 Dec;104(6):1182-1190.
 
 **Majumdar 2007** Majumdar AK, Yan KX, Selverian DV, Barlas S, Constanzer M, Dru J, McCrea JB, Ahmed T, Frick GS, Kraft WK, Petty KJ, Greenberg HE. Effect of aprepitant on the pharmacokinetics of intravenous midazolam. J Clin Pharmacol. 2007 Jun;47(6):744-50.
 
@@ -141,5 +147,4 @@
 **Yu 2004** Yu KS, Cho JY, Jang IJ, Hong KS, Chung JY, Kim JR, Lim HS, Oh DS, Yi SY, Liu KH, Shin JG, Shin SG. Effect of the CYP3A5 genotype on the pharmacokinetics of intravenous midazolam during inhibited and induced metabolic states. Clin Pharmacol Ther. 2004 Aug;76(2):104-12.
 
 **Zimmermann 1996** Zimmermann T, Yeates RA, Laufen H, Scharpf F, Leitold M, Wildfeuer A. Influence of the antibiotics erythromycin and azithromycin on the pharmacokinetics and pharmacodynamics of midazolam. Arzneimittelforschung. 1996 Feb;46(2):213-7.
-
 

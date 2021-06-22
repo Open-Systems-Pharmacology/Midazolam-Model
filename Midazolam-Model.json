@@ -1,5 +1,5 @@
 {
-  "Version": 76,
+  "Version": 77,
   "Individuals": [
     {
       "Name": "European (P-gp modified, CYP3A4 36 h)",
@@ -88,12 +88,22 @@
           },
           "Parameters": [
             {
+              "Name": "Reference concentration",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
               "Name": "t1/2 (liver)",
               "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -203,6 +213,23 @@
             {
               "Name": "ColonSigmoid",
               "Value": 0.00010384615385
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -592,6 +619,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -634,6 +671,23 @@
               "Name": "Muscle",
               "MembraneLocation": "Basolateral",
               "Value": 0.00064682539683
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -749,6 +803,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -779,6 +843,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -802,6 +876,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         }
@@ -918,6 +1002,11 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -1027,6 +1116,23 @@
             {
               "Name": "ColonSigmoid",
               "Value": 0.00010384615385
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -1416,6 +1522,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -1458,6 +1574,23 @@
               "Name": "Muscle",
               "MembraneLocation": "Basolateral",
               "Value": 0.00064682539683
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -1573,6 +1706,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -1603,6 +1746,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -1626,6 +1779,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         }
@@ -3036,7 +3199,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -3364,7 +3528,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -3627,7 +3792,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -4014,7 +4180,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -4385,7 +4552,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -4766,7 +4934,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -5196,7 +5365,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -5683,7 +5853,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -6219,7 +6390,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -6585,7 +6757,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -6966,7 +7139,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -7331,7 +7505,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -7702,7 +7877,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -8078,7 +8254,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -8455,7 +8632,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -8531,7 +8709,8 @@
       "Model": "4Comp",
       "ObservedData": [
         "van Dyk 2018 - Midazolam in Caucasian at baseline - Midazolam - PO - 1 mg - Plasma - agg. (n=19)",
-        "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)"
+        "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)",
+        "Chattopadhyay 2018 - Control (without Rifampicin) - Midazolam - PO - 1 mg - Plasma - agg. (n=11)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -8832,7 +9011,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -8879,7 +9059,18 @@
           ],
           "Curves": [
             {
-              "Name": "po 1 mg (solution)-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)-Midazolam-Peripheral Venous Blood-Plasma-Median",
+              "X": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|Time",
+              "Y": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Median",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Midazolam-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
               "Y": "po 1 mg (solution)|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
@@ -8898,12 +9089,12 @@
               }
             },
             {
-              "Name": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)-Midazolam-Peripheral Venous Blood-Plasma-Median",
-              "X": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|Time",
-              "Y": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Median",
+              "Name": "Chattopadhyay 2018 - Control (without Rifampicin) - Midazolam - PO - 1 mg - Plasma - agg. (n=11)-Midazolam-Peripheral Venous Blood-Plasma-GeometricMean",
+              "X": "Chattopadhyay 2018 - Control (without Rifampicin) - Midazolam - PO - 1 mg - Plasma - agg. (n=11)|Time",
+              "Y": "Chattopadhyay 2018 - Control (without Rifampicin) - Midazolam - PO - 1 mg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricMean",
               "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 3,
+                "Color": "#008000",
+                "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -9222,7 +9413,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -9638,7 +9830,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -9790,7 +9983,9 @@
       "Name": "po 2 mg (solution)",
       "Model": "4Comp",
       "ObservedData": [
-        "Templeton 2010 - Control (Perpetrator Placebo) - Midazolam - PO - 2 mg - Plasma - agg. (n=6)"
+        "Templeton 2010 - Control (Perpetrator Placebo) - Midazolam - PO - 2 mg - Plasma - agg. (n=6)",
+        "Lutz 2018 - Cohort 1, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)",
+        "Lutz 2018 - Cohort 2, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -10091,7 +10286,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -10152,6 +10348,28 @@
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Lutz 2018 - Cohort 1, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Lutz 2018 - Cohort 1, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)|Time",
+              "Y": "Lutz 2018 - Cohort 1, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Lutz 2018 - Cohort 2, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Lutz 2018 - Cohort 2, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)|Time",
+              "Y": "Lutz 2018 - Cohort 2, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -10472,7 +10690,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -10914,7 +11133,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -11447,7 +11667,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -11836,7 +12057,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -12236,7 +12458,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -12635,7 +12858,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -13011,7 +13235,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -13395,7 +13620,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -13815,7 +14041,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -14252,7 +14479,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -14280,21 +14508,21 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": -0.4022837,
-              "Max": 11.50645,
+              "Min": -0.832368433,
+              "Max": 12.6202488,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "ng/ml",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.003018668,
-              "Max": 0.2445742,
+              "Min": 0.248819932,
+              "Max": 95.56502,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -14654,7 +14882,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -15043,7 +15272,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -15431,7 +15661,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -15817,7 +16048,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -16183,7 +16415,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -16558,7 +16791,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -16995,7 +17229,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -17385,7 +17620,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -29187,22 +29423,22 @@
             "MolWeight": 325.77
           },
           "Values": [
-            0.00140416308,
-            0.01885978,
-            0.0418989845,
-            0.0611005723,
-            0.05135668,
-            0.0461532138,
-            0.04200329,
-            0.0319677778,
-            0.02575769,
-            0.0171646271,
-            0.012082871,
-            0.005715175,
-            0.003191968
+            1.40416312,
+            18.85978,
+            41.8989868,
+            61.10057,
+            51.35668,
+            46.1532135,
+            42.00329,
+            31.96778,
+            25.75769,
+            17.1646271,
+            12.0828705,
+            5.715175,
+            3.191968
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -32592,17 +32828,17 @@
             "MolWeight": 325.77
           },
           "Values": [
-            0.06319037,
-            0.0637651458,
-            0.0360710174,
-            0.029060049,
-            0.02223811,
-            0.007474914,
-            0.00223767571,
-            0.001516093
+            63.19037,
+            63.7651443,
+            36.07102,
+            29.06005,
+            22.23811,
+            7.474914,
+            2.237676,
+            1.516093
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -32721,15 +32957,15 @@
             "MolWeight": 325.77
           },
           "Values": [
-            0.0538356043,
-            0.0338256,
-            0.0286835581,
-            0.02149377,
-            0.009658476,
-            0.005472284
+            53.8356,
+            33.8256,
+            28.68356,
+            21.49377,
+            9.658477,
+            5.472284
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -35386,6 +35622,503 @@
         "Dimension": "Time",
         "Unit": "h"
       }
+    },
+    {
+      "Name": "Chattopadhyay 2018 - Control (without Rifampicin) - Midazolam - PO - 1 mg - Plasma - agg. (n=11)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1361.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Chattopadhyay 2018"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/30171692/"
+        },
+        {
+          "Name": "Source",
+          "Value": "Figure 2B"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Control (without Rifampicin)"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 11.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "1 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Name": "Var",
+                "Path": "Chattopadhyay 2018 - Control (without Rifampicin) - Midazolam - PO - 1 mg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "GeometricStdDev",
+                "Date": "0001-01-01T00:00:00",
+                "MolWeight": 325.77
+              },
+              "Values": [
+                1.47672117,
+                1.40222168,
+                1.34634972,
+                1.25682414,
+                1.36818516,
+                1.29426432,
+                1.42600763,
+                1.372275,
+                1.42773032,
+                1.40022421,
+                1.47645831,
+                1.6943742,
+                1.89271784,
+                1.841591,
+                1.88962185
+              ],
+              "Dimension": "Dimensionless"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Chattopadhyay 2018 - Control (without Rifampicin) - Midazolam - PO - 1 mg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 325.77,
+            "LLOQ": 2E-12
+          },
+          "Values": [
+            3.144234,
+            2.555757,
+            1.68580329,
+            1.2363075,
+            1.00116265,
+            0.781851232,
+            0.6696615,
+            0.597655654,
+            0.470638126,
+            0.382138252,
+            0.335310876,
+            0.230253682,
+            0.138632759,
+            0.113536514,
+            0.0473631248
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Chattopadhyay 2018 - Control (without Rifampicin) - Midazolam - PO - 1 mg - Plasma - agg. (n=11)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          2.5,
+          3.0,
+          3.5,
+          4.0,
+          4.5,
+          5.0,
+          6.0,
+          8.0,
+          12.0,
+          15.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Lutz 2018 - Cohort 1, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1348.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Lutz 2018"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/29569723/"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1B"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Cohort 1, Control"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 20.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "2 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Name": "Var",
+                "Path": "Lutz 2018 - Cohort 1, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "0001-01-01T00:00:00",
+                "MolWeight": 325.77
+              },
+              "Values": [
+                0.00277263415,
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Lutz 2018 - Cohort 1, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 325.77,
+            "LLOQ": 1E-10
+          },
+          "Values": [
+            4.250431,
+            9.49255,
+            11.60434,
+            10.14991,
+            6.641926,
+            4.595774,
+            1.840532,
+            0.7049238,
+            0.3989967
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Lutz 2018 - Cohort 1, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.25,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          4.0,
+          8.0,
+          12.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Lutz 2018 - Cohort 2, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1349.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Lutz 2018"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/29569723/"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1B"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Cohort 2, Control"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 20.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "2 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Name": "Var",
+                "Path": "Lutz 2018 - Cohort 2, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "0001-01-01T00:00:00",
+                "MolWeight": 325.77
+              },
+              "Values": [
+                "NaN",
+                0.004789313,
+                0.003991857,
+                0.003276773,
+                0.00257860078,
+                0.00217097718,
+                0.000954948657,
+                0.000440523581,
+                0.000263772
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Lutz 2018 - Cohort 2, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 325.77,
+            "LLOQ": 1E-10
+          },
+          "Values": [
+            3.635646,
+            10.37899,
+            14.34513,
+            12.40794,
+            8.395974,
+            5.681234,
+            2.225023,
+            0.8617467,
+            0.4411518
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Lutz 2018 - Cohort 2, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.25,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          4.0,
+          8.0,
+          12.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
     }
   ],
   "ObservedDataClassifications": [
@@ -35749,6 +36482,19 @@
       "Name": "Wiesinger 2020",
       "Classifiables": [
         "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)"
+      ]
+    },
+    {
+      "Name": "Chattopadhyay 2018",
+      "Classifiables": [
+        "Chattopadhyay 2018 - Control (without Rifampicin) - Midazolam - PO - 1 mg - Plasma - agg. (n=11)"
+      ]
+    },
+    {
+      "Name": "Lutz 2018",
+      "Classifiables": [
+        "Lutz 2018 - Cohort 1, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)",
+        "Lutz 2018 - Cohort 2, Control - Midazolam - PO - 2 mg - Plasma - agg. (n=20)"
       ]
     }
   ],
