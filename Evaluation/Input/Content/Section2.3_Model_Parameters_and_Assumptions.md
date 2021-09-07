@@ -43,7 +43,7 @@ This is the result of the final parameter identification for the base model:
 | `GFR fraction`                                               | 0.6401                                                       |           |
 | `Reference concentration` (GABRG2)                           | 1.088<sup>*</sup>                                        | µmol/L    |
 
-<sup>*</sup> The value was set to 1.041 with the release of PK-Sim 10 to account for the updated calculation method of interstitial concentrations (please refer to the respective [release notes of version 10](https://github.com/Open-Systems-Pharmacology/Suite/releases/tag/v10)).
+<sup>*</sup> The value was set to 1.041 with the release of PK-Sim 10 to account for the updated calculation method of interstitial concentrations (please refer to the respective [release notes of version 10](https://github.com/Open-Systems-Pharmacology/Suite/releases/tag/v10.0)).
 
 
 
