@@ -41,7 +41,9 @@ This is the result of the final parameter identification for the base model:
 | `Km` (UGT1A4)                                                | 37.8 FIXED (see [Section 2.2.1](#221-In-vitro-and-physicochemical-data)) | µmol/L    |
 | `kcat` (UGT1A4)                                              | 3.591                                                        | 1/min     |
 | `GFR fraction`                                               | 0.6401                                                       |           |
-| `Reference concentration` (GABRG2)                           | 1.088                                                        | µmol/L    |
+| `Reference concentration` (GABRG2)                           | 1.088<sup>*</sup>                                        | µmol/L    |
+
+<sup>*</sup> The value in the model was updated to 1.041 with the release of PK-Sim 10 to account for the updated calculation method of interstitial concentrations (please refer to the respective [release notes of version 10](https://github.com/Open-Systems-Pharmacology/Suite/releases/tag/v10.0)).
 
 
 
