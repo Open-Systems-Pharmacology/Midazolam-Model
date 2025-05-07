@@ -1314,7 +1314,7 @@
                     },
                     {
                         "Caption": "Intravenous administration (model verification)",
-                        "Symbol": "Triangle",
+                        "Symbol": "TriangleOpen",
                         "OutputMappings": [
                             {
                                 "Project": "Midazolam",
@@ -1431,7 +1431,7 @@
                     },
                     {
                         "Caption": "Oral administration, solution (model verification)",
-                        "Symbol": "Circle",
+                        "Symbol": "CircleOpen",
                         "OutputMappings": [
                             {
                                 "Project": "Midazolam",
@@ -1559,7 +1559,7 @@
                     },
                     {
                         "Caption": "Oral administration, tablet (model verification)",
-                        "Symbol": "Square",
+                        "Symbol": "SquareOpen",
                         "OutputMappings": [
                             {
                                 "Project": "Midazolam",
@@ -1632,7 +1632,7 @@
                     },
                     {
                         "Caption": "Mixed applications",
-                        "Symbol": "Circle",
+                        "Symbol": "Asterisk",
                         "OutputMappings": [
                             {
                                 "Project": "Midazolam",
