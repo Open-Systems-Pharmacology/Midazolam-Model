@@ -20,11 +20,11 @@ A literature search was performed to collect available information on physicoche
 |                                       | %                          | 3.1              | [Björkman 2001](#5-references)    | Fraction unbound in plasma in men                            |
 |                                       | %                          | 3.1              | [Björkman 2001](#5-references)    | Fraction unbound in plasma in women                          |
 | V<sub>max</sub>, K<sub>m</sub> CYP3A4 | pmol/min/pmol,<br />µmol/L | 1.96<br />2.69   | [Galentin 2004](#5-references)    | CYP3A4 supersomes Michaelis-Menten kinetics (alpha-hydroxylation) |
-| V<sub>max</sub>, K<sub>m</sub> CYP3A4 | pmol/min/mg,<br />µmol/L   | 850<br />4       | [Bolger 2006](#5-references)      | CYP3A liver mircosomes Michaelis-Menten kinetics             |
-| V<sub>max</sub>, K<sub>m</sub> CYP3A4 | nmol/min/mg,<br />µmol/L   | 4.41<br />3.8    | [Ito 2003](#5-references)         | CYP3A liver mircosomes Michaelis-Menten kinetics (alpha-hydroxylation) |
-| V<sub>max</sub>, K<sub>m</sub> CYP3A4 | nmol/min/mg,<br />µmol/L   | 0.18<br />3.9    | [Patki 2003](#5-references)       | CYP3A liver mircosomes Michaelis-Menten kinetics (alpha-hydroxylation) |
+| V<sub>max</sub>, K<sub>m</sub> CYP3A4 | pmol/min/mg,<br />µmol/L   | 850<br />4       | [Bolger 2006](#5-references)      | CYP3A liver microsomes Michaelis-Menten kinetics             |
+| V<sub>max</sub>, K<sub>m</sub> CYP3A4 | nmol/min/mg,<br />µmol/L   | 4.41<br />3.8    | [Ito 2003](#5-references)         | CYP3A liver microsomes Michaelis-Menten kinetics (alpha-hydroxylation) |
+| V<sub>max</sub>, K<sub>m</sub> CYP3A4 | nmol/min/mg,<br />µmol/L   | 0.18<br />3.9    | [Patki 2003](#5-references)       | CYP3A liver microsomes Michaelis-Menten kinetics (alpha-hydroxylation) |
 | V<sub>max</sub>, K<sub>m</sub> CYP3A4 | pmol/min/pmol,<br />µmol/L | 5.23<br />2.16   | [Wang 2019](#5-references)        | CYP3A4 supersomes Michaelis-Menten kinetics (alpha-hydroxylation) |
-| V<sub>max</sub>, K<sub>m</sub> UGT1A4 | pmol/min/mg,<br />µmol/L   | 276<br />37.8    | [Klieber 2008](#5-references)     | UGT1A4 liver mircosomes Michaelis-Menten kinetics            |
+| V<sub>max</sub>, K<sub>m</sub> UGT1A4 | pmol/min/mg,<br />µmol/L   | 276<br />37.8    | [Klieber 2008](#5-references)     | UGT1A4 liver microsomes Michaelis-Menten kinetics            |
 | K<sub>D</sub> GABRG2                  | nmol/L                     | 1.8              | [Buhr 1997](#5-references)        | Binding affinity to GABRG2 (Gamma-Aminobutyric Acid Type A Receptor Subunit Gamma2) |
 
 ### 2.2.2 Clinical data
