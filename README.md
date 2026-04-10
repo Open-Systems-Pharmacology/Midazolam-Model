@@ -1,7 +1,7 @@
 # Midazolam-Model
 Whole-body PBPK model of midazolam.
 
-<a title="Midazolam" href="https://commons.wikimedia.org/wiki/File:Midazolam_200.svg"><img width="128" alt="Midazolam 200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Midazolam_200.svg/128px-Midazolam_200.svg.png"></a>
+<a title="Midazolam" href="https://commons.wikimedia.org/wiki/File:Midazolam_200.svg"><img width="128" alt="Midazolam 200" src="https://upload.wikimedia.org/wikipedia/commons/1/17/Midazolam_200.svg"></a>
 
 
 
